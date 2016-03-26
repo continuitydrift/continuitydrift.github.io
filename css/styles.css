@@ -203,7 +203,8 @@ a:hover {
 
 
 
-	.header
+	#header
 	{
 		color: white;
+		clear: left;
 	}

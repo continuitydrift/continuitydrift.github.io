@@ -34,11 +34,10 @@ a:hover {
 
 .container {
 	width:700px;
-	height:100%;
-	position:absolute;
-	top:50px;
-	left:50%;
-	margin-left:-350px;
+	height:700px;
+	 margin: auto;
+  position: absolute;
+  top: 25%; left: 0; bottom: 0; right: 0;
 }
 
 
@@ -206,4 +205,13 @@ a:hover {
 {
 	margin: 300px;
 	position: center;
+}
+
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.hex_current {
+
 }

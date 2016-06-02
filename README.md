@@ -1,5 +1,6 @@
 # continuitydrift.github.io
 website 
-changes here should show up locally. Testing that hypothesis now...
-Cool. Let's see if it works in the other direction.
-Do I need to create a seperate pull list?
+
+This site is an experimental attempt to curate content online, both my own, and that which I think might be genuinely useful for other web developers and educators.
+
+I want all of the material posted/hosted on the continuitydrift.io site to be free, both in monetary terms and in the sense of others being free to adapt, replicate, or use for derivative works (creative commons 4.0)

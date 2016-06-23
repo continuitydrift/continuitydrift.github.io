@@ -1,0 +1,7 @@
+body {
+	background-color: black;
+}
+#header {
+	height: 116px;
+	background-image: url(https://spectralworkbench.org/analyze/spectrum/19882);
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<meta keywords = "teaching, improvisation, novels, speculative fantasy, runeshadow, creative, web design, coding, livecoding">
+	<meta description = "this is a website where I will host and curate a variety of content related to education, writing, and creative web development">
+	<title>Continuity Drift: Writing, Teaching, and Creative Web Design</title>
+	<link rel="stylesheet" href="css/style.css">	
+</head>
+<body>
+	<navigation>
+	<a href= "#home">top</a><a href= "#runeshadow">Runeshadow</a><a href= "#improv_games">Improv Games</a><a href= "#research">Research</a>
+	</navigation>
+	<div id = "home">
+		<h1>Continuity Drift: Adventures in Creative Curation and Design
+		</h1>
+			<p>This site is an experimental attempt to collect and present online content, both my own, and that which I think might be genuinely useful for other web developers and educators.
+			</p> 
+			<p>all of the material posted/hosted on the continuitydrift.io site to be free, both in monetary terms and in the sense of others being free to adapt, replicate, or use for derivative works (creative commons 4.0)
+			</p>
+	</div>
+	<div id = "runeshadow">
+		<h2>
+		Runeshadow: the Bard of Broken Spells
+		</h2>
+			<p>Runeshadow is a fantasy novel that I have written, which plays with a classical inversion between monsters and heroes, building a world in which daemonic heroes contend with heroic daemons.
+			</p>
+		</h2>
+	</div>
+	<div id = "improv_games">
+		<h2>
+		Improv Games
+		</h2>
+	</div>
+	<div id = "research"
+		<h2>
+	Research
+	</h2>
+	<h2>
+	Graphic/Web Design
+	</h2>
+</body>
+</html>
+
+. So a description of the website that I am going to create:
+
+I want
+OUTLINE:
+1-
+While originally distributed through Smashwords, I creating a torrent with all of the relevant files, as well as direct links to download the novel as a pdf
+
+2-improv games for teachers (short classroom exercises based in either physical or verbal improvisation).
+These games were developed both in the context of teaching English as a Second Language (ESL) in Romania, China, France, and Peru, as well as in literature and rhetoric courses. 
+3 research
++dissertation
+My research broadly 
++evolutionary philosophy
++ecological humanist blog
+4 audio book recording (Mardi)--librivox.org
++try to raise money for audio book of RUNESHADOW
+5 graphic design?
++artwork (create example on stream?)
++overlay
++also all under a creative commons license.
+6 creative web design
+This will be meta. 
++text adventure games
++add
++link to new language studio, proofreading/editing
+

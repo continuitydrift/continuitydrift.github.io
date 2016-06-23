@@ -1,0 +1,31 @@
+body {
+	background-color: #000000;
+	color: #e6e6ff;
+	left-margin: auto;
+	right-margin: auto;
+	align-items: center;
+	background-image: url(https://dl.dropboxusercontent.com/u/3367612/images/public_images/spaceship.gif);
+	;
+}
+.container {
+		
+	left-margin: auto;
+	right-margin: auto;
+	display: flex;
+	align-content: center;
+
+/*	width: 80%;
+*/
+}
+.box {
+	width: 100px;
+	height: 100px;
+	padding: 40px;
+	margin: 40px;
+	background-color: #ffffff;
+	color: #000000;
+	align-items: center
+	border: solid 2px #444444;
+	display: flex;
+	
+}

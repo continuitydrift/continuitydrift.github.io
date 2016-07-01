@@ -1,11 +1,178 @@
-body
-{
-	background-color: #000000;
-	color: #ffffff;
+/*
+#                       _         _      _            
+#                      (_)       | |    | |           
+#  __   __  __ _  _ __  _   __ _ | |__  | |  ___  ___ 
+#  \ \ / / / _` || '__|| | / _` || '_ \ | | / _ \/ __|
+#   \ V / | (_| || |   | || (_| || |_) || ||  __/\__ \
+#    \_/   \__,_||_|   |_| \__,_||_.__/ |_| \___||___/
+#                                                     
+# 
+*/
+body {
+  background-color: #000000;
+  align-content: center;
+  align-items: center;
+  color: #efeff5;
 }
 
-#container
-{
-color: #d9e6f2;
-	padding: 5%;
+p {
+  margin: 15px;
+  font-size: 150%;
+  padding: 6px;
+}
+
+h2 {
+  padding: 1%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  border: white;
+  border-style: solid;
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+.big_head {
+  width: 40%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 200%;
+  margin-top: 40%;
+  padding: 4%;
+  border-radius: 50%;
+}
+
+/* 
+####                      _                _    _               
+ #                       (_)              | |  (_)              
+ #   _ __    __ _ __   __ _   __ _   __ _ | |_  _   ___   _ __  
+ #  | '_ \  / _` |\ \ / /| | / _` | / _` || __|| | / _ \ | '_ \ 
+ #  | | | || (_| | \ V / | || (_| || (_| || |_ | || (_) || | | |
+ #  |_| |_| \__,_|  \_/  |_| \__, | \__,_| \__||_| \___/ |_| |_|
+ #                            __/ |                             
+ #                           |___/              
+*/
+.navbar-brand {
+  background-color: black;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar li {
+  float: left;
+  text-transform: uppercase;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+  background-color: #52527a;
+}
+
+/* PARALLAX */
+.parallax {
+  background: url(https://dl.dropboxusercontent.com/u/3367612/images/nonprofit_freelance_full_b.JPG) no-repeat fixed;
+  background-size: cover;
+}
+
+.parallax-inner {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.parallax-inner h2 {
+  background-color: black;
+  border-style: none;
+}
+
+.sect {
+  padding: 2%;
+  margin-top: 10px;
+}
+
+.container {
+  background-color: red;
+}
+
+/*
+#   _                  
+#  | |                 
+#  | |__    ___  __  __
+#  | '_ \  / _ \ \ \/ /
+#  | |_) || (_) | >  < 
+#  |_.__/  \___/ /_/\_\
+#                      
+# 
+*/
+.box {
+  background-color: #2C3539;
+}
+
+.left_col {
+  padding: 5%;
+  margin: 4%;
+}
+
+.right_border {
+  border-right: solid 10px black;
+  margin-right: 40px;
+}
+
+.left_border {
+  border-left: solid 10px black;
+  margin-left: 20px;
+}
+
+.small_box {
+  backbround-color: blue;
+  height: 10px;
+  width: 10px;
+}
+
+#teaching .row {
+  height: 160px;
+}
+
+#teaching {
+  height: 600px;
+  align-content: center;
+}
+#teaching img {
+  width: 60%;
+}
+
+#about {
+  height: 400px;
+  padding: 6px;
+}
+#about img {
+  width: 100%;
+}
+
+.novel_cover {
+  margin: 6%;
+}
+
+#writing img {
+  left-margin: 6%;
+}
+
+#teaching img {
+  margin: 20px;
 }

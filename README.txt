@@ -1,3 +1,1 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/continuitydrift/pen/mEVOZo.
-
- This is both a showcase of current and past projects, as well as a collection of freely available resources (image, text, and sound).
+This portfolio page was originally created as part of the free code camp tutorial. It uses basic html and css, including SASS and bootstrap, to create a simple yet appealing design, including a parallax effect. Comments or suggestions for improvement are more than welcome!

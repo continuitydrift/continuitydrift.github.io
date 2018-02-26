@@ -1,0 +1,1 @@
+This portfolio page was originally created as part of the free code camp tutorial. It uses basic html and css, including SASS and bootstrap, to create a simple yet appealing design, including a parallax effect. Comments or suggestions for improvement are more than welcome!

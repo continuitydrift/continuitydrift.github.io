@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Parallax.js | Simple Example</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+
+</head>
+<body>
+
+	<div id="container" class="fluid-container">
+		<div id="scene_row" class="row">
+			<div id="curtain">
+				<ul id="scene" class="scene" data-calibrate-x="false"
+		  data-calibrate-y="true"
+		  data-invert-x="true"
+		  data-invert-y="true"
+		  data-limit-x="false"
+		  data-limit-y="10"
+		  data-scalar-x="6"
+		  data-scalar-y="6"
+		  data-friction-x="0.2"
+		  data-friction-y="0.8"
+		  data-origin-x="0.0"
+		  data-origin-y="1.0">
+		<!--original
+			<li class="layer" data-depth="1.00"><img src="images/layer1.png"></li>
+			<li class="layer" data-depth="0.80"><img src="images/layer2.png"></li>
+			<li class="layer" data-depth="0.60"><img src="images/layer3.png"></li>
+			<li class="layer" data-depth="0.40"><img src="images/layer4.png"></li>
+			<li class="layer" data-depth="0.20"><img src="images/layer5.png"></li>
+			<li class="layer" data-depth="0.00"><img src="images/layer6.png"></li>
+		experimental-->
+		<li class="layer" data-depth="0.00"><img src="images/layer6.png"></li>
+		<li class="layer" data-depth="0.20"><img src="images/layer5.png"></li>
+		<li class="layer" data-depth="0.40"><img src="images/layer4.png"></li>
+		<li class="layer" data-depth="0.60"><img src="images/layer3.png"></li>
+		<li class="layer" data-depth="0.80"><img src="images/layer2.png"></li>
+			<li class="layer" data-depth="1.00"><img src="images/layer1.png"></li>
+		</ul>
+	</div>
+	</div>
+
+	<!-- Scripts -->
+	<script src="deploy/parallax.js"></script>
+	<script>
+
+	//
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+
+	</script>
+
+</body>
+</html>

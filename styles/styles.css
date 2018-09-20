@@ -3,18 +3,21 @@ body {
 /*  font-size: 18px;*/
   background: black;
   color: white;
-  margin: 0;
-  /*padding:2%;*/
-  width:100%
+/*  margin: 0; */
+  padding:4%;
+/*  width:100% */
 }
-
+.dark {
+  background: black;
+  color: white;
+}
 input[type=checkbox] {
   display: none;
 }
 
 img{
-  /*display:block;*/
-  width:100%;
+  display:block;
+/*  width:100%;*/
 }
 nav {
    font-size: 14px;

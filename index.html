@@ -1,52 +1,47 @@
 <!DOCTYPE html>
-<!-- can I change this file? yes.-->
+<!-- These comments reflect the design of the project, which is to have an ecosystem of digital information at different levels, with only certain specimens visible at a given time..-->
 <html>
-<!--
-todo:
-1-map
-2-text
-3-destroy
-4-explore
-5- fix nav bar
-6- get parallax image to work
 
--make the layers of the wreckage image better
--add new images 
+<!--
+
+todo:
+1-
+2-table of books (shelves?)
+3:figure out why the width is > 100%
+::is everything in a container?
+
+4:github
+::create experimental branch and push changes?
+
+5- fix image display
+6- create columns with text/ image
+7- Have the parallax image also randomly carousel.
+
+<!--
+#    /         \            /         \            /        \
+#   /           \          /           \          /          \
+#  /             \________/             \________/            \
+#  \             /        \             /        \            /
+#   \           /          \           /          \          /
+#    \_________/            \_________/    open_   \________/
+#    /         \ library    /@@@@@@@@@\   process  /        \
+#   /           \          /@@@     @@@\          /          \
+#  /             \________/@@@       @@@\________/            \
+#  \             / ______ \@@@       @@@/        \            /
+#   \           / /        \ afterlife /          \          /
+#    \_________/ /          \_of trees/            \________/
+#    /         \ \  images  /         \   words    /        \
+#   /           \ \____    /           \          /          \
+#  /             \________/             \________/            \
+#  \             /        \             /        \            /
+#   \           /          \           /          \          /
+#    \_________/            \_________/            \________/
+-->
+<!--
+This page is more for my own practice and gratification. I'd like to add an interactive table of books I would loan to people or talk about.
+It is the opposite of social media, where you have to compete to see how much of yourself you are willing to cut off to fit in frame...
 -->
   <head>
-    <meta charset="UTF-8">
-    <title>Continuity Drift</title>
-    <!--
-    There is a balance between wanting to start over and wanting to continue, to solve the current puzzle or think of something else, be in the moment yet facing towards the East.
-    -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!--
-working with html files, and bits of header that I'll need to copy again and again,
-an environment of memetic replication and selection is created.
-Lines like these can plead for the tiny digital crumbs they need
-to latch onto useful syntax
--->
-    <meta name"description" content="online extrusion of the drift, a pseudo-dimensional ideospace drawing signal from the noise">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- replaced default /path/to/parallax.min.js with -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-  <!--  <script src="/deploy/parallax.min.js"></script>-->
-  <!--switched to CDN 2/26/2018-->
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
-        
-      <link rel="stylesheet" href="styles/styles.css">
-
-    <meta name="keywords" content="continuity, drift, mnemonics, chaos, composition, memes, cycles, games, improv">
-  </head>
-<body>
     <!--
                   _   _             _ _               _      _  __ _
    ___ ___  _ __ | |_(_)_ __  _   _(_) |_ _   _    __| |_ __(_)/ _| |_
@@ -54,19 +49,93 @@ to latch onto useful syntax
  | (_| (_) | | | | |_| | | | | |_| | | |_| |_| | | (_| | |  | |  _| |_
   \___\___/|_| |_|\__|_|_| |_|\__,_|_|\__|\__, |  \__,_|_|  |_|_|  \__|
                                           |___/
-
-
-            Organization of site
-            I. about
-            II. images
-            III. words
-            IV. sounds
-            V.  thoughts
-             VI. Projects
-            VII. Follow
            -->
-<!--new nav bar-->
+
+    <title>Continuity Drift</title>
+    <!--
+    There is a balance between wanting to start over and wanting to continue, to solve the current puzzle or think of something else, be in the moment yet facing towards the East.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--
+
+If I can get this page to display properly and function, I can use it as a template to try to build other, more interesting branches.
+-->
+    <meta name"description" content="open source repository for memeplex practice">
+
 <!--
+                         __   __   __     __  ___
+       |  /\  \  /  /\  /__` /  ` |__) | |__)  |
+    \__/ /~~\  \/  /~~\ .__/ \__, |  \ | |     |
+
+           __   __        __   __   ___  __
+          /__` /  \ |  | |__) /  ` |__  /__`
+          .__/ \__/ \__/ |  \ \__, |___ .__/
+
+
+    -->
+
+<!--note: I need to build a functional version of the webpage that works without an internet connection. Or do I? The only person who would be looking at offline, without the needed files in their cache, would be me.-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <!--  <script src="/deploy/parallax.min.js"></script>-->
+  <!--switched to CDN 2/26/2018-->
+    <!-- Latest compiled and minified CSS -->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!--
+
+ __   __   __
+/  ` /__` /__`
+\__, .__/ .__/
+
+ __  ___           ___
+/__`  |  \ / |    |__
+.__/  |   |  |___ |___
+
+ __        ___  ___ ___  __
+/__` |__| |__  |__   |  /__`
+.__/ |  | |___ |___  |  .__/
+
+
+-->
+      <link rel="stylesheet" href="styles/new.css">
+      <link rel="stylesheet" href="styles/styles.css">
+
+
+    <!--  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!--
+             ___ ___
+       |\/| |__   |   /\
+       |  | |___  |  /~~\
+
+
+#        there should be a replicability of process.
+#
+# Simultaneously with trying to navigate a commercial hosting service, I'm trying to use this site to documen
+#
+#
+
+  -->
+
+
+    <meta name="keywords" content="continuity, drift, mnemonics, chaos, composition, memes, cycles, games, improv">
+    <meta charset="UTF-8">
+  </head>
+<body class="dark">
+<div id="wrap_all"><!--I'm still seeing overflow in width, with a horizontal scroll bar. How do I stop this?-->
+
+<!--
+   _   _   _   _o
+  / \_/ \_/ \_/ \
+  \_/ \_? \_/ \_/
                    _
                   | |
  _ __   __ ___   _| |__   __ _ _ __
@@ -75,17 +144,26 @@ to latch onto useful syntax
 |_| |_|\__,_| \_/ |_.__/ \__,_|_|
                       -->
 
-<!--<div class="container">-->
+<div id="navbar">
+
+  <!--Hopefully I will design more webpages in the future, for myself and others, and they can always be variations on the same pattern, with a menu at the top and bottom, then thin long images, then two rows broken up into uneven columns, with images and text on either side.
+
+  ###### menu (continuity)
+  ##### banner (drift)
+  #### text/image (continuity)
+  ### image/text (drift)
+  ## banner
+  #  menu
   <nav id="navigation" class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <!--navigation menu needs to be fixed-->
-    <!--<div class="container-fluid">-->
+    <!--I should check/update this code from Bootstrap, and check with the css-->
       <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
           </button>
+          <!--I would like to understand the above code better by fiddling with it. As it is, I just cut and pasted it from the bootstrap website. Most of the structure should work even without the stylesheet.-->
       </div>
       <div class="collapse navbar-collapse continuity">
           <ul class="nav navbar-nav navbar-left">
-            <!--  <li><a class="navbar-brand" href="#"><img height="40px" src="/images/spiral.png"></a></li>-->
+            <!--<li><a class="navbar-brand" href="#"><img height="40px" src="/images/spiral.png"></a></li>-->
               <li><a href="#about">about</a>
               </li>
               <li><a href="#images">images</a>
@@ -95,55 +173,60 @@ to latch onto useful syntax
               <li><a href="#projects">projects</a>
               </li>
           </ul>
-      </div><!--ends navbar-->
-   <!-- </div><!--ends fluid container-->
+      </div>
   </nav>
+</div>
+  <!--
+       _                 _
+      | |               | |
+  __ _| |__   ___  _   _| |_
+ / _` | '_ \ / _ \| | | | __|
+| (_| | |_) | (_) | |_| | |_
+ \__,_|_.__/ \___/ \__,_|\__|
+        -->
 
-    <!-- end container -->
+<div class="container-fluid" id="about">
+  <h1>continuity drift</h1>
 
-  <!-- end navbar -->
-<!-- Should I make two columns, with a log-in logo on the right? -->
-<!-- <nav class="navbar navbar-inverse">
+  <p id="about_drift">Eventually, I would like to have a list of paragraphs like this, and a function where every time you loaded this webpage, a new, random paragraph would be drawn from the list and appear here. In the meantime, readers will have to wait on mere human updates.</p>
 
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data target= "#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Portfolio</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="navbar-brand">
-          <img src="https://dl.dropboxusercontent.com/u/3367612/port/logo_nls.png">
-        </li>
-        <li class="active"><a href="#home">you are here</a></li>
-        <li><a href="#about_you">about you</a></li>
-        <li><a href="#skills">skills</a></li>
-        <!--have this be drop-down?-->
-        <!-- <li><a href="#">experiences</a></li>
-         <li><a href="#">portfolio</a></li>
-        <li><a href="http://www.newlanguagestudio.com">new language studio</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://www.newlanguagestudio.com">new language studio</a></li>
-      </ul>
-    </div> -->
-    <!-- below ends container -->
+    <script>
+    var abouts= ["This webpage is the product of qualitative drift from known ephemera.", "Continuity Drift is a novel, comic, and a web page.", "I am a writer, editor, and language tutor. This is my webpage.", "I'm glad that you are here.", "I like to understand as much as possible about the media that I use, especially to present my writing. The ability to see into and understand underlying codes is essential to my language practice.", "Rather than static content, every time I edit this section of the webpage I add a sentence or two to a list of possible blocks of text, which are chosen from randomly when the page loads."];
+
+
+
+    var hi_text = abouts[Math.floor(Math.random()*abouts.length)];
+
+
+    document.getElementById("about_drift").innerHTML = hi_text;
+    </script>
+
+</div>
 <!--
-<div class="parallax">
-  <div class="parallax-inner">-->
-  <!--<div class="container center-block">
-    <h1 style="margin: auto; text-transform: uppercase; margin-top:10%"><b>Continuity Drift: Portfolio</b></h1>-->
+#    /         \            /         \            /        \
+#   /           \          /           \          /          \
+#  /             \________/             \________/            \
+#  \             /        \             /        \            /
+#   \           /          \           /          \          /
+#    \_________/            \_________/            \________/
+#    /         \            /@@@@@@@@@\            /        \
+#   /           \          /@@@@@@@@@@@\          /          \
+#  /             \________/@@@@@@@@@@@@@\________/            \
+#  \             /        \@@@@@@@@@@@@@/        \            /
+#   \           /          \@@@@@@@@@@@/          \          /
+#    \_________/            \_________/            \________/
+#    /         \            /         \            /        \
+#   /           \          /           \          /          \
+#  /             \________/             \________/            \
+#  \             /        \             /        \            /
+#   \           /          \           /          \          /
+#    \_________/            \_________/            \________/
+-->
+<!--end about container-->
 
-<div class="container-fluid">
-  <p id="flavor">The ship, known as Beacon, was half-buried at the end of an overgrown skid, the heat of its scorching, pre-historic impact having liquified veins of low-melting-point minerals, the wounded surface now holding the crumpled hull fast in a furrow of stone. The shell of its fuselage was broken, revealing coils of corroded wires and crystals. All organic life, at the time of impact, had been vaporized. The humanoid passengers had met a burning or pulverizing end, yet their stories, so complete as to resemble ghosts, haunted the decks and squinted out at the planet with surviving curiosity. </p> 
-
+<div class="container-fluid" id = "parallax_scene">
   <div class="row">
-    <div id="curtain" class="col-md-12 center-block">
+    <div id="curtain" class="col-md-8 center-block">
     <ul id="scene" class="center-block" style="overflow:hidden"
   data-calibrate-x="false"
   data-calibrate-y="false"
@@ -180,208 +263,79 @@ to latch onto useful syntax
   <!--end curtain-->
   </div>
   <!--end row-->
-  <div id="about">
-    <div class="row">
-      <div class="col-sm-8">
-        <p>
-Language is a powerful tool for understanding one another and the world in which we live. I derive professional and personal satisfaction from finding new paths, through words, into accurate and vivid expression. The more transparent language becomes, the more robust an ecosystem of shared information will be allowed to develop.
-  </p>
-        
-      </div>
-      <div class="col-sm-4">
-        <img src="images/15.jpg">
-      </div>
-    </div>
-  
-
 </div>
-<!--
-<div id ="header-container" style= "align-items: center" class ="row container-fluid">
-        <img width="100%" src="/images/nonprofit_freelance_full_b.JPG">
-      </img>
-
-      </div>
-      <!--
-  </div><!--end parallax-inner-->
-  <!--
-<p>what if there is text here?
-</p>
-
-</div>
-<div class="container">
+  <!--end parallax scene container-->
 
 
-
-    <div id="curtain">
-      <ul id="scene" style="overflow:hidden"
-    data-calibrate-x="false"
-    data-calibrate-y="false"
-    data-invert-x="true"
-    data-invert-y="true"
-    data-limit-x="false"
-    data-limit-y="false"
-    data-scalar-x="0"
-    data-scalar-y="0"
-    data-friction-x=".1"
-    data-friction-y=".1"
-    data-origin-x="0.0"
-    data-origin-y="0.0">
-      <!--original
-        <li class="layer" data-depth="1.00"><img src="images/layer1.png"></li>
-        <li class="layer" data-depth="0.80"><img src="images/layer2.png"></li>
-        <li class="layer" data-depth="0.60"><img src="images/layer3.png"></li>
-        <li class="layer" data-depth="0.40"><img src="images/layer4.png"></li>
-        <li class="layer" data-depth="0.20"><img src="images/layer5.png"></li>
-        <li class="layer" data-depth="0.00"><img src="images/layer6.png"></li>
-      experimental-->
-      <!--
-        <li class="layer" data-depth="0.00"><img class= "img" src="images/human/l6.png"></li>
-      <li class="layer" data-depth="0.10"><img class= "img" src="images/human/l5.png"></li>
-      <li class="layer" data-depth="0.20"><img class= "img" src="images/human/l4.png"></li>
-      <li class="layer" data-depth="0.40"><img class= "img" src="images/human/l3.png"></li>
-
-      <li class="layer" data-depth="0.80"><img class= "img" src="images/human/l2.png"></li>
-        <li class="layer" data-depth="1.00"><img class= "img"src="images/human/l1.png"></li>
-      </ul>
-    </div>
+<div class="fluid-container" id="images">
+ <div class="row">
+  <div class="col-md-1">
   </div>
+   <div class="col-md-10">
+    <!--  <img src="images/main.jpg"></img>-->
+   </div>
+   <div class="col-md-1">
+   </div>
+  </div>  <!--ending row-->
+ <div class ="row" id="spacer">
+ </div>
+ <div class="row">
+  <div class="col-md-3">
+  </div>
+  <div class="col-md-6">
+      <img id ="now_image" class="img-fluid w-100" src="images/15.jpg" leflt-margin="-15px"></img>
+  </div>
+  <div class="col-md-3">
+  </div><!--end col-->
+    <!--one problem I just ran into is that I thought my website wasn't working, when I was simply disconnected from the internet. It would be nice to have some kind of back up layout for when bootstrap, etc, can't load.
+    -->
+ </div>
+    <!--end row-->
 
 
+    <script>
+    var image_array = ["images/2.jpg","images/3.jpg", "images/4.jpg"];
 
-<!--
-<div class="container center-block">
-  <h1 style="margin: auto; text-transform: uppercase; margin-top:10%"><b>wreckage</b></h1>
-<div class="row">
-  <div id="curtain" class="col-md-12 center-block">
-  <ul id="scene" class="center-block" style="overflow:hidden"
-data-calibrate-x="false"
-data-calibrate-y="false"
-data-invert-x="true"
-data-invert-y="true"
-data-limit-x="false"
-data-limit-y="false"
-data-scalar-x="10"
-data-scalar-y="10"
-data-friction-x=".1"
-data-friction-y=".1"
-data-origin-x="0.0"
-data-origin-y="0.0">
-  <!--original
-    <li class="layer" data-depth="1.00"><img src="images/layer1.png"></li>
-    <li class="layer" data-depth="0.80"><img src="images/layer2.png"></li>
-    <li class="layer" data-depth="0.60"><img src="images/layer3.png"></li>
-    <li class="layer" data-depth="0.40"><img src="images/layer4.png"></li>
-    <li class="layer" data-depth="0.20"><img src="images/layer5.png"></li>
-    <li class="layer" data-depth="0.00"><img src="images/layer6.png"></li>
-  experimental-->
-  <!--
-    <li class="layer" data-depth="0.00"><img class= "img" src="images/wreckage/layer_3.png"></li>
-  <li class="layer" data-depth="0.10"><img class= "img" src="images/wreckage/layer_6.png"></li>
-  <li class="layer" data-depth="0.20"><img class= "img" src="images/wreckage/layer_5.png"></li>
-  <li class="layer" data-depth="0.40"><img class= "img" src="images/wreckage/layer_4.png"></li>
 
-  <li class="layer" data-depth="0.80"><img class= "img" src="images/wreckage/layer_2.png"></li>
-    <li class="layer" data-depth="1.00"><img class= "img"src="images/wreckage/layer_1.png"></li>
-  </ul>
-</div>
-</div>
-</div>
--->
+    var new_img = image_array[Math.floor(Math.random()*image_array.length)];
 
-  <!--
-       _                 _
-      | |               | |
-  __ _| |__   ___  _   _| |_
- / _` | '_ \ / _ \| | | | __|
-| (_| | |_) | (_) | |_| | |_
- \__,_|_.__/ \___/ \__,_|\__|
-        -->
-        <!-- Eventually, I want to have the full parallax effect here, but in a smaller window. -->
+    function changeImage(a) {
+        document.getElementById("now_image").src=a;
+    };
 
-<!--
-<div id="about_you">
-<div class="row container-fluid">
- <h2>About You</h2>
-  <div class="row container-fluid">
-    <div class= "col-md-2">-->
-      <!-- Change this image -->
-<!--
-      <img class="me img-responsive" src="https://dl.dropboxusercontent.com/u/3367612/images/oak_leaf.png">
+    changeImage(new_img)
+    </script>
+
+    <!--imported example from jsfiddle:
+
+    <script type="text/javascript">
+        function changeImage(a) {
+            document.getElementById("img").src=a;
+        }
+    </script>
+    <div id="main_img">
+        <img id="img" src="http://placehold.it/110x110">
     </div>
-    <div class="col-md-10">
-      <div class= "panel">
--->
-
-
-  <!--
-So, a basic turn, operating as a div, spinning out six different pseudo-pods of telepathic intention. Plan for the next turn.
-
-Comments get deleted, or saved through evacuation precedures.
+    <div id="thumb_img">
+        <img src='http://placehold.it/120x60'  onclick='changeImage("http://placehold.it/120x60");'>
+        <img src='http://placehold.it/130x60'  onclick='changeImage("http://placehold.it/130x60");'>
+        <img src='http://placehold.it/140x60'  onclick='changeImage("http://placehold.it/140x60");'>
+    </div>
   -->
 
+</div>
+  <!--end fluid container-->
 
 
-          <!-- <p>My name is Chad, and I am a writer, educator, and aspiring creative web developer. Through the <a href="http://www.newlanguagestudio.com">New Language Studio</a>, I offer proofreading, online content generation, and professional copyediting.
-          </p>
-           <p>Broadly conceived, my goals are to reduce inequalities in access to digital information  and resources, and to contribute to open, online communities for creative collaboration.
-          </p>
-           <p>I am looking for work as a front end web developer, in order to hone my skills and learn about the industry. The open source movement in computer software was one of the main reasons I was drawn to information technology, and I would eventually like to participate in projects relating to free education and software.
-          </p> -->
-          <!--
-        </div><!--end me_text-->
-        <!--
-      </div><!--end panel-->
-      <!--
-    </div><!--end col-->
-    <!--
-  </div><!--end row-->
+
+        <!-- Eventually, I want to have the full parallax effect here, but in a smaller window. -->
+
+
+
   <!--
-</div> <!--end container-->
+a basic turn, operating as a div, spinning out six different pseudo-pods of telepathic intention.
+  -->
 
-     <!--redo this section with a simpler bootstrap template (media box?) -->
-
-     <!--
--->
-<!--
-<p>
-     As a devoted practitioner of the written word, I see every instance of composition and communication, interaction with typed language as an opportunity for real understanding and meaning. While striving to be as clear and precise as possible, I also take pleasure in artful experiments and variation, knowing that the best formula for interesting writing is to contantly be adapting and changing, not adhering to any formula at all.
-
-     I have, in pursuit of my Bachelors, Masters, and ultimately a doctorate in English-related subjects, written countless academic essays, forming and reinforcing habits of citation, proofreating, and research, but also (thanks to the subject matter and indulgence of my professors) practicing originality and creative insight, bridging disciplines and methodologies.
-
-     
-
-     As an academic my goal was to use the thoughtful deployment of language to effectively convey complex ideas and obseravtions. I will take this passion for clear and eloquent communication with me, regardless of which career path I end up following. Writing is my calling, my vocation, and employment aside, I have a responsibility to my family and species to put in words my thoughts and observations.
-
-     At the same time writing, for me, needs to be grounded, to return at some point back to the world. I want my work to have something to say to the actual, to the lived domains. The "what for" of writing is, for me, the environment, and an underlying message of decentralized cultural production, diversity of information, anti-consumerism, and in support of first hand experience and knowledge.
-</p>
--->
-<!--
-        <div class="col-md-6">
-          <!--all left column-->
-          <!--
-          <div class="left_col box">
-            <p>My self-published speculative fantasy novel, <a href="https://www.smashwords.com/books/view/625581">Runeshadow, the Bard of Broken Spells</a>, is available for free download in the following formats:</p>
-            <ul>
-            <li><a href="https://dl.dropboxusercontent.com/u/3367612/runeshadow/texts/runeshadow-the-bard-of-broken-spells.epub">epub</a></li>
-					<li><a href="https://dl.dropboxusercontent.com/u/3367612/runeshadow/texts/runeshadow-the-bard-of-broken-spells.pdf">pdf</a></li>
-					<li><a href="https://dl.dropboxusercontent.com/u/3367612/runeshadow/texts/runeshadow-the-bard-of-broken-spells.txt">txt</a></li>
-					<li><a href="https://dl.dropboxusercontent.com/u/3367612/runeshadow/texts/runeshadow-the-bard-of-broken-spells.mobi">mobi</a></li>
-				</ul>
-            <p>My graduate thesis, <a href="https://www.researchgate.net/publication/45489183_Evolutionary_landscapes_adaptation_selection_and_mutation_in_19th_century_literary_ecologies">Evolutionary Landscapes: Adaptation, Selection, and Mutation in 19th Century Literary Ecologies</a> uses evolutionary theory to analyze lesser known works of Edgar Allan Poe, Herman Melville, and obscure utopian authors, online . My interest in the "ecologies" in which various kinds of texts are selectively replicated led directly into my interest in open source software and creative commons licensing.</p>
-            <p>I also maintain a blog, <a href="https://ecologicalhumanist.wordpress.com/">Ecological Humanist</a>, which is a incongrous mix of science fiction book reviews, personal essays, and random observations.</p>
-          </div> end left col
-        </div>
-
-        <div class="col-md-6">
-         <img src="https://dl.dropboxusercontent.com/u/3367612/runeshadow/images/cover.png"  class="img-responsive">
-       </div>
-       <!--end col
-      </div>
-      <!--end overall row-->
-     <!--</div>
-  </div>end writing row-->
-<!--			</div><!--end parallax inner
-</div><!--end parallax-->
   <!--
                _ _
               | (_)
@@ -395,28 +349,18 @@ Comments get deleted, or saved through evacuation precedures.
 -->
 
 <!-- Scripts -->
-<script src="../deploy/parallax.js"></script>
-<script>
 
-// Pretty simple huh?
-var scene = document.getElementById('scene');
-var parallax = new Parallax(scene);
 
-</script>
-<!--
-  <div id="row">
-<div id="coding" class="sect">
+<!--  <div id="row">-->
+    <!--
+<div id="coding" class="col-md-12">
+
   <h2>coding</h2>
-  <p>I am currently learning front end web development, including html5, css, and javascript. I've been working with bootstrap, jquery, and am beginning to learn how to implement Angular.js</p>
--->
-<!--
-  <p>While living abroad, I use dthe internet to offer remote copy editing and online tutoring, and became more interested in the ways in which educational resources and information was distributed, licensed, and produced. As with other languages I use, I felt the need to understand more of the underlying logic and grammar that encodes the way information is shared on the internet.  In the spirit of "learning by doing," I began to improve my coding skills by creating digital projects, both creative and academic.</p>
+  <p>I've been teaching myself python, and know enough html, js, and css to have put together this webpage (with the help of a lot of librariess)</p>
+
   <p>My interest in coding, however, goes back at least until 2003 in Chicago, when I wrote <a href="http://csmt.uchicago.edu/glossary2004/code.htm">this</a> entry for the University of Chicago's Theories of Media keywords glossary. <a href="http://kembrew.com/">Kembrew McLeod</a>, at the University of Iowa, was instrumental in fostering my appreciation of and commitment to opensource and copyleft philosophies. I believe in the value of a creative and decentralized internet, where the tools for creating responsive, sophisticated content are as accessible and distributed as possible. My ultimate goal is to create open source educational resources and applications, and to contribute to creative online communities and non-profits.</p>
 </div>
   </div>
-
-  end coding row-->
-  <!--
 
 -->
 <!--
@@ -430,72 +374,93 @@ var parallax = new Parallax(scene);
 
 -->
 <!--
-  <div id="books">
-    <h2>books I like</h2>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="box"><p>Mardi, by Herman Melville (1849)</p>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="box"><p>Pale Fire, by Vladamir Nabokov (1962)</p>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="box"><p>The Culture Series, by Ian M. Banks</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="box"><p>Cloud Atlas, by David Mitchell (2004)</p>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="box"><p>The City and the City, by Cina Mieville (2010)<p>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="box"><p>Permutation City, by Greg Egan (1994)</p>
-          </div>
-        </div>
-      </div>
-    </div><!--end container-fluid-->
-    <!--
-  </div><!--end images-->
- <!-- extra grid-->
-      <!--
-       <div class="row">
-            <div class="col-md-4">
-              <div class="small_box"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Game_of_life_beacon.gif"></div>
-            </div>
-             <div class="col-md-4">
-               <div class="small_box"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Game_of_life_beacon.gif"></div>
-            </div>
-             <div class="col-md-4">
-               <div class="small_box"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Game_of_life_beacon.gif"></div>
-            </div>
-          </div><!--end row--><!--
-         <div class="row">
-            <div class="col-md-4">
-              <div class="small_box"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Game_of_life_beacon.gif"></div>
-            </div>
-             <div class="col-md-4">
-               <div class="small_box"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Game_of_life_beacon.gif"></div>
-            </div>
-             <div class="col-md-4">
-               <div class="small_box"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Game_of_life_beacon.gif"></div>-->
+<p>this is where the table should appear</p>
+
+  <div id=book_table>
+    <div class="row">
+      <table id="library" class="display" width="100%"></table>
+    </div>
+  </div>
+
+</div>-->
+<!--wrapper-->
+<div id="words">
+  <h2>open process
+  </h2>
+  <p>
+    The thing you are working on tends to be a fractal model of themes/problems/questions at other levels.
+  </p>
+  <p>
+    When writing, you have to imagine who you are writing to. In some sense, I want a degree of transparency where I am always writing to everyone, yet part of writing well is always having a mode of address that shows an appreciation of the person you are addressing.
+  </p>
+  <p id="scroll">old words</p>
+    <script>
+    var words= ["This sentence was randomly selected from a list. Every time the webpage loads, this paragraph, unlike the one above it, will change.", "I stopped liking to learn when I stopped playing games. Luckily, I never stopped playing games.", "I want this sentence to be chosen randomly from an array."]]
+
+    var chant = words[Math.floor(Math.random()*words.length)];
+
+    document.getElementById("scroll").innerHTML = chant;
+    </script>
+    <p>
+      I want the kind of work I would like to do to be evident from the nature of my portfolio, including diachronic and syncronic cross-sections. Some of it will be aspirational, oriented towards skills I want to aquire rather than already have at my disposal. Ultimately, a web-page is a portal to other forms of communication more rooted in actual social and physical space.
+    </p>
+    <p>
+      I like the performative aspects of putting thoughts online in na way that the expression includes the code, the way that you share software, and libraries.
+    </p>
+    <!--Being poor is, if you have the time, more educational and healthy than being rich.-->
+</div><!--end words-->
 
 <!--
-<div class="parallax">
-	<div class="parallax-inner">
-			</div>
-</div>
+#    ___    _ __    __     __    ______     ____   ______    ____
+#    |  \   |/  \  /  \    |     |         /         |       /
+#    |__/   | __/  |  |    |     |===      |         |       \__
+#    |      |  \   \__/    \__/  |_____    \____     |       ___/
+#
 -->
-<!--
+<div id="projects">
+
+  <!--the outcome of this improvisation is not pre-determined. There is a real chance of blood and failure. You should die half of the time, or the game isn't hard enough.-->
+  <div id="split_wood" class="row">
+    <div class="row">
+    <div class="column-md-6">
+   <!--<img id="wood" src="images/split_1.jpg" width="300px">afterlife of a tree</img>
+    </div><!--end column-->
+    <div class="column-md-4">
+      <p>I opened up the logs like pages of a book. Diachronic slice--not a time slice, not those nested circles, but loosely ruled waves of beige, dark red. Black walnut, my brother says, the most prized wood of Missouri.
+      </p>
+      <p>
+        Enemies of fly and ill-positioned swings. You have to look, when splitting wood, for where the cracks alreaddy want to form. The same with an idea you are tending to. A bird feeder of language you sit and wait and watch.
+      </p>
+    </div><!--end col-->
+  </div><!--end row-->
+    <div class="row">
+      <div class="column-md-6">
+        <img src="images/lichen_800.jpg" width="400px"></img>
+      </div><!--end col -->
+      <div class="column-md-6">
+        <p id="ants">
+          Part of me was sad for the death of the trees, their uncrafted rot and decay. Destined for the fire. But I had this chance to read them, to memorize their vivid colors after I had opened them to the sun, before they dried. I could study the scurrying, egg-carrying ants.
+        </p>
+        <p>
+          I need a camera, I thought, or I could try to simulate those waves in ink. Program a web page to show their layers in parallax. All these things I didn't have the time or resources for, a trail of bugged and broken code. Yet: that moment, and this one, were full fruitions, honor to the various loops of metabolic function. To see things fully, to live, is an art in itself, or the thing behind and obscured by what people think of as art.
+        </p>
+
+        <!--
+
+It is important to balance out trying to get broken things to work, with the creation of information, lines in the pseudo-code of language, using methods with which I am already fluent and familair. For every column in which I struggle to get the styles to load or display correctly, there should be the satisfaction of adding words to the momentum of an existing project.
+
+
+        -->
+      </div><!--end col-6-->
+    </div><!--end row-->
+    </div><!--end split wood row-->
+
+
+</div><!--end projects-->
+
+
   <div id="footer">
-    <a href ="http://twitter.com" class="btn  btn-social btn-twitter btn-primary fa fa-twitter" >
+  <!--  <a href ="http://twitter.com" class="btn  btn-social btn-twitter btn-primary fa fa-twitter" >
    Follow me on Twitter
   </a>
      <a href ="http://facebook.com" class="btn  btn-social btn-facebook btn-default fa fa-facebook">
@@ -508,18 +473,12 @@ var parallax = new Parallax(scene);
      <a href ="https://soundcloud.com/continuitydrift" class="btn btn-social btn-reddit btn-primary fa fa-reddit">
    Connect on Reddit
   </a>
-
-  </div>
-  end footer-->
-
-<!--</div>
-    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+-->
+</div><!--end footer-->
+</div><!--end wrap_all-->
 
 
 
-
-    <script src="deploy/parallax.js"></script>
-    <!--if I am using cdn, do I even nee this file?-->
   	<script>
 
 
@@ -527,5 +486,27 @@ var parallax = new Parallax(scene);
   	var parallax = new Parallax(scene_2);
 
   	</script>
+    <script src="../deploy/parallax.js"></script>
+    <script>
+
+    // does this work for multiple scenes?
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+
+    </script>
+    <!--i've totally forgotten how to javascript.-->
+  <script>
+$(document).ready(function() {
+    $('#library').DataTable( {
+        data: dataSet,
+        columns: [
+            { title: "Title" },
+            { title: "Author_First" },
+            { title: "Author_Last" },
+
+        ]
+    } );
+} );
+    </script>
   </body>
 </html>

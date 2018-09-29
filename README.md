@@ -2,11 +2,7 @@ CONTINUITY DRIFT
 
 : Open Process
 
-You can only show, not tell. I learn by doing things. There is a type of learner, I think, called "kinaesthetic", and I might be an extreme version of that, who can only do things by living them.
-
-:: Many Rodeos
-
-This is not my first rodeo, and I have a better idea of what I want and the traps to avoid, one of which is making these readme pages aspirational rather than descriptive. In other words, making promises about future content rather than describing what is actually in the files.
+You can only show, not tell. I learn by doing things. There is a type of learner, I think, called "kinaesthetic", and I might be an extreme version of that, who can only learn things by living them.
 
 :: Sustainability and Maintainability
 

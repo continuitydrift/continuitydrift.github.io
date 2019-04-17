@@ -5,11 +5,15 @@
 
 
 Cadence for reviewing and revising this file:
-1. update todo (below)
-2.
+1. look at live version
+2. read through code
+3. update todo (below)
+4. Make changes
+5. Push changes
+6. add to todo
 
 todo:
-1- look at webpage
+1- add blog link
   o
   o
 2-
@@ -83,6 +87,8 @@ finding methods that come naturally.
 
 
    The one where I count the words of a file, and get a score accordingly?
+
+   Besides, the understanding most useful to the collective mind is the one that show the most tranparent process, that gives no polished veneer of venal self-preserving flattery.
     -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -132,7 +138,7 @@ I can use it as a template to try to build other, more interesting branches.
 /__` |__| |__  |__   |  /__`
 .__/ |  | |___ |___  |  .__/
 
-
+I should consolidate these into one, I suppose.
 -->
       <link rel="stylesheet" href="styles/new.css">
       <link rel="stylesheet" href="styles/styles.css">
@@ -202,6 +208,8 @@ I can use it as a template to try to build other, more interesting branches.
               </li>
               <li><a href="#projects">projects</a>
               </li>
+              <li><a href="blog.html">blog</a>
+              </li>
           </ul>
       </div>
   </nav>
@@ -226,7 +234,7 @@ I can use it as a template to try to build other, more interesting branches.
 
     var abouts= ["This webpage is the product of qualitative drift from known ephemera.",
     "Continuity Drift is a novel, comic, and a web page.", "I am a writer, editor, and language tutor. This is my webpage.", "I'm glad that you are here.", "I like to understand as much as possible about the media that I use, especially to present my writing. The ability to see into and understand underlying codes is essential to my language practice.", "Rather than static content, every time I edit this section of the webpage I add a sentence or two to a list of possible blocks of text, which are chosen from randomly when the page loads.", "As long as there is incremental progress, I can rest in the feeling that my proficiency in coding and web design is analogous, somehow, to working on a book.",
-    "The most important thing is the climate. All of us that are alive at this historical moment are heros in an epic story of ecosystemic survival.", "Sometimes we invisible relationships that determine matrices of power and control become almost painfully evident. All governance, submission, etc, is held within glances, within fragile constructs of momentary conviction."];
+    "The most important thing is the climate. All of us that are alive at this historical moment are heros in an epic story of ecosystemic survival.", "Sometimes we invisible relationships that determine matrices of power and control become almost painfully evident. All governance, submission, etc, is held within glances, within fragile constructs of momentary conviction.","I don't believe in the inferiority of drafts, in the subservience of rehearsal to some kind of performance. Especially with this webpage, incrementally pushed upwards into something reflecting how interesting I find the world."];
 
 
     var hi_text = abouts[Math.floor(Math.random()*abouts.length)];
@@ -303,7 +311,16 @@ So the challenge now seems to be to
   </div>
   <!--end row-->
 </div>
-  <!--end parallax scene container-->
+  <!--end parallax scene container
+
+
+
+
+So the challenge now seems to be to
+1. put the styles for the scene in a style-sheet, rather than"in-line"
+2. make it so that a new scene can be loaded with every page load.
+
+</div>
 
 
   <div class="container-fluid" id = "parallax_scene_2">
@@ -322,14 +339,7 @@ So the challenge now seems to be to
     data-friction-y=".1"
     data-origin-x="0.0"
     data-origin-y="0.0">
-      <!--original
-        <li class="layer" data-depth="1.00"><img src="images/layer1.png"></li>
-        <li class="layer" data-depth="0.80"><img src="images/layer2.png"></li>
-        <li class="layer" data-depth="0.60"><img src="images/layer3.png"></li>
-        <li class="layer" data-depth="0.40"><img src="images/layer4.png"></li>
-        <li class="layer" data-depth="0.20"><img src="images/layer5.png"></li>
-        <li class="layer" data-depth="0.00"><img src="images/layer6.png"></li>
-      experimental-->
+
 
       <li class="layer" data-depth="0.80"><img class= "img" src="images/edix/layer_1.png"></li>
       <li class="layer" data-depth="0.50"><img class= "img" src="images/edix/layer_2.png"></li>
@@ -341,13 +351,8 @@ So the challenge now seems to be to
 
 
       </ul>
-      <!--
-  So the challenge now seems to be to
-  1. put the styles for the scene in a style-sheet, rather than"in-line"
-  2. make it so that a new scene can be loaded with every page load.
-      -->
-    </div>
-    <!--end scene-->
+
+    --end scene-->
     </div>
     <!--end curtain-->
     </div>
@@ -429,12 +434,13 @@ a basic turn, operating as a div, spinning out six different pseudo-pods of tele
   <div id="coding" class="col-md-12">
 
     <h2>coding</h2>
+    <p>I'm a writer, but I've harbored aspirational ships with sails of coded wind. My age, though, is forcing me to re-evaluate what I've always thought I would have time to learn.</p>
     <p>I've been teaching myself python, and know enough html, js,
      and css to have put together this webpage (such as it is).</p>
-
+<!--
     <p>My interest in coding goes back at least until 2003 in Chicago,
     when I wrote <a href="http://csmt.uchicago.edu/glossary2004/code.htm">this</a> entry for the University of Chicago's Theories of Media keywords glossary. <a href="http://kembrew.com/">Kembrew McLeod</a>, at the University of Iowa, was instrumental in fostering my appreciation of and commitment to opensource and copyleft philosophies.
-    I believe in the value of a creative and decentralized internet, where the tools for creating responsive, sophisticated content are as accessible and distributed as possible. My ultimate goal is to create open source educational resources and applications, and to contribute to creative online communities and non-profits.</p>
+    I believe in the value of a creative and decentralized internet, where the tools for creating responsive, sophisticated content are as accessible and distributed as possible. My ultimate goal is to create open source educational resources and applications, and to contribute to creative online communities and non-profits.</p>-->
   </div>
 </div>
 
@@ -476,17 +482,18 @@ a basic turn, operating as a div, spinning out six different pseudo-pods of tele
   </p>
   <p id="scroll">old words</p>
     <script>
-    var words= ["This sentence was randomly selected from a list. Every time the webpage loads, this paragraph, unlike the one above it, will change.", "I stopped liking to learn when I stopped playing games. Luckily, I never stopped playing games.", "I want this sentence to be chosen randomly from an array.","Certain parts of this website invite addition. It is a model of an infomatic ecosystem."]]
+    var words= ["This sentence was randomly selected from a list. Every time the webpage loads, this paragraph, unlike the one above it, will change.", "I stopped liking to learn when I stopped playing games. Luckily, I never stopped playing games.", "I want this sentence to be chosen randomly from an array.","Certain parts of this website invite addition. It is a model of an infomatic ecosystem.","You are standing on a game tile, staring out into contemplated space."]]
 
     var chant = words[Math.floor(Math.random()*words.length)];
 
     document.getElementById("scroll").innerHTML = chant;
     </script>
+    <!--
     <p>
       I want the kind of work I would like to do to be evident from the nature of my portfolio,
       including diachronic and syncronic cross-sections. Some of it will be aspirational, oriented towards skills I want to aquire rather than already have at my disposal. Ultimately, a web-page is a portal to other forms of communication more rooted in actual social and physical space.
     </p>
-    <!--
+
     <video width="320" height="240" controls>
       <source src="this.flv" type="video/flv">
 
@@ -513,10 +520,10 @@ Your browser does not support the video tag.
   <h2>projects</h2>
   <h3>this website</h3>
   <p>
-I have a "professional" website, <a href="http://newlanguagestudio.com">New Language Studion</a>, and I've imagined this as a sandbox to practice my rudimentary skills with html, css, and javascript.
+I have a "professional" website, <a href="http://newlanguagestudio.com">New Language Studio</a>, and I've imagined this as a sandbox to practice my rudimentary skills with html, css, and javascript.
   </p>
   <p>
-In the same way, I've imagined maintaining a blog here, and a repository of sounds and images, with a more hair-down approach to brand management.
+My job at the moment is teaching English at a University in Mexico. There is a computer and projector in the classroom, but no internet connection or permanent storage. How cool would it be to have python and some learning games on a usb?
   </p>
 
 

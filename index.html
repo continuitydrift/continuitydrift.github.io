@@ -13,12 +13,12 @@ Cadence for reviewing and revising this file:
 6. add to todo
 
 todo: future change log
-1- [ ] add blog
+- [ ] add blog
   o write
   o edit
 	o format
 	o add image
-2-import material from continuity index and drift index
+- import material from continuity index and drift index
 3- put blog entry into proper section
 4:github
 ::create experimental branch and push changes?
@@ -48,7 +48,7 @@ I can use it as a template to try to build other, more interesting branches.
 <!--parallax-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 
-	
+
 <!--taken from old github site-->
   <!--<link rel="stylesheet" href="styles/new.css">-->
 <!--  <link rel="stylesheet" href="styles/styles.css">-->
@@ -91,7 +91,7 @@ I can use it as a template to try to build other, more interesting branches.
 					<a class="nav-link" href="#">Music</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Blog</a>
+					<a class="nav-link" href="#blog">Blog</a>
 				</li>
 			</ul>
 		</div>
@@ -336,7 +336,7 @@ I can use it as a template to try to build other, more interesting branches.
 
 
 <!--- Two Column Section -->
-<div class="container-fluid padding">
+<div class="container-fluid padding" id="blog">
 	<div class="row row-padding">
 
 		<div class="col-lg-6">
@@ -344,19 +344,32 @@ I can use it as a template to try to build other, more interesting branches.
 		</div>
 		<div class="col-lg-6">
 
-		<h2>Web Comic</h2>
-		<p>Continuity Drift has been a web comic sporadically since 2008.</p>
+		<h2>Web Site Redesign</h2>
+		<h3>August 5th, 2019</h3>
+		<p>By the end of the week, I'd like to have a functional version of this website pushed to github.</p>
+		<p>The week after that, I'd like to use the template I develop here for my professional website, <a href="www.newlanguagestudio.com">New Language Studio</a>
+		</p>
+		<p>As much as I'm trying to develop technical skills like <b>html</b>, <b>css</b>, and <b>javascript</b>, I'm also trying to hone my time management skills.
+		</p>
+		<h2>Learning</h2>
+		<p>I've been trying to figure out firebase hosting, as well as playing around with python.</p>
 		<p>Learning becomes easier when games and tasks are relevant to context and hands-on experiment.
 		</p>
-		<p>Currently updating weekly.
+		<p>For example, the next thing I want to do is to have the button below expand out into a much longer text.
 		</p>
-		<h2>Ecologies</h2>
-		<p>I want to explore the crowd-sourcing of scientific and literary enterprise.</p>
-		<p>Learning becomes easier when games and tasks are relevant to context and hands-on experiment.
-		</p>
-		<p>This should be half screen at large.
-		</p>
-		<a href="#" class="btn btn-primary">Learn More</a>
+		<a href="#" class="btn btn-primary" data-toggle="collapse" data-target="#more_text">Learn More</a>
+		</div>
+	</div>
+	
+	<div id="more_text" class="collapse">
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<p>I'm sitting in my office in Teotitlan de Flores Magon, at the Universidad de la Cañada.
+				</p>
+				<p>I'm getting paid to be here, yet until October first don't have any classes to teach, so I'm working on my own projects, and learning web design and programming skills.
+				</p>
+			</div>
+
 		</div>
 	</div>
 
@@ -379,7 +392,7 @@ I can use it as a template to try to build other, more interesting branches.
 
 	</div>
 </div>
-<!--Parallax-->
+<!--Parallax
 
 
 <div class="container-fluid" id = "parallax_scene">
@@ -398,14 +411,7 @@ I can use it as a template to try to build other, more interesting branches.
   data-friction-y=".1"
   data-origin-x="0.0"
   data-origin-y="0.0">
-    <!--original
-      <li class="layer" data-depth="1.00"><img src="images/layer1.png"></li>
-      <li class="layer" data-depth="0.80"><img src="images/layer2.png"></li>
-      <li class="layer" data-depth="0.60"><img src="images/layer3.png"></li>
-      <li class="layer" data-depth="0.40"><img src="images/layer4.png"></li>
-      <li class="layer" data-depth="0.20"><img src="images/layer5.png"></li>
-      <li class="layer" data-depth="0.00"><img src="images/layer6.png"></li>
-    experimental-->
+
 
     <li class="layer" data-depth="0.04"><img class= "img" src="images/wreckage/layer_6.png"></li>
     <li class="layer" data-depth="0.10"><img class= "img" src="images/wreckage/layer_5.png"></li>
@@ -415,17 +421,17 @@ I can use it as a template to try to build other, more interesting branches.
     <li class="layer" data-depth="0.00"><img class= "img" src="images/wreckage/layer_3.png"></li>
 
     </ul>
-    <!--
+
 So the challenge now seems to be to
 1. put the styles for the scene in a style-sheet, rather than"in-line"
 2. make it so that a new scene can be loaded with every page load.
-    -->
+
   </div>
-  <!--end scene-->
+
   </div>
-  <!--end curtain-->
+
   </div>
-  <!--end row-->
+
 </div>
   <!--end parallax scene container
 

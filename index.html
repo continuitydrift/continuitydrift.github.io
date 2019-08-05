@@ -79,16 +79,16 @@ I can use it as a template to try to build other, more interesting branches.
 					<a class="nav-link" href="#">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">About</a>
+					<a class="nav-link" href="#about">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Books</a>
+					<a class="nav-link" href="#books">Books</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Webcomic</a>
+					<a class="nav-link" href="#projects">Projects</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Music</a>
+					<a class="nav-link" href="#music">Music</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#blog">Blog</a>
@@ -109,15 +109,18 @@ I can use it as a template to try to build other, more interesting branches.
 	<div class="carousel-inner">
 		<div class="carousel-item active">
 			<img src="img/background.png" alt="Large, roughly drawn image of a human in a spacesuit.">
-		</div>
-		<div class="carousel-caption">
+			<div class="carousel-caption">
 			<h1 class="display-2">Continuity Drift</h1>
 			<h2>
 				Epic Interdimensionality
 			</h2>
+			<!--I don't really have a use for these buttons right now
 			<button type="button" class="btn btn-outline-light btn-lg">text</button>
 			<button type="button" class="btn btn-primary btn-lg">images</button>
+			-->
+			</div>
 		</div>
+		
 		<div class="carousel-item">
 			<img src="img/background2.png" alt="Close up of a human's face.">
 		</div>
@@ -125,18 +128,20 @@ I can use it as a template to try to build other, more interesting branches.
 			<img src="img/background3.png" alt="Large person in a space suit, standing on a very small planet. Diagonal perspective" >
 		</div>
 
-		</div>
-
 	</div>
+
+</div>
 
 
 <!--- Jumbotron -->
 <div class="container-fluid">
-	<div class="row jumbotron">
+	<div class="row jumbotron text-center">
 		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-			<p class="lead">
-				Continuity Drift, the novel, will be published in 2022.
-			</p>
+			
+				<p class="lead">
+					Continuity Drift, the novel, will be published in 2022.
+				</p>
+		
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
 			<a href="#"><button type="button" class="btn btn-outline-secondary ctn-lg">Join the Mailing List</button></a>
@@ -145,7 +150,7 @@ I can use it as a template to try to build other, more interesting branches.
 </div>
 <!--- Welcome Section -->
 <header>
-<div class="container-fluid padding">
+<div id="about" class="container-fluid padding">
 	<div class="row welcome text-center">
 		<div class="col-12">
 			<h2 class="display-4">You've heard this story before. I'm going to tell it differently.</h2>
@@ -206,39 +211,26 @@ I can use it as a template to try to build other, more interesting branches.
 </div>
 -->
 <!--- Two Column Section -->
-<div class="container-fluid padding">
+<div id="books" class="container-fluid padding">
 	<div class="row row-padding">
 
 		<div class="col-md-12 col-lg-6">
 			<main>
 				<article>
-					<h1>Continuity Drift: New Language Studio
+					<h1>Books
 					</h1>
-					<h2>Noticias
+					<h2>Writing and Editing 
 					</h2>
-					<p>There is an ostensible goal and content, and then there is the subtext, the associations, the illogical drift. At the core of a happy existence could be bridging and mapping out the difference.
+					<p>I've loved books almost all of my life. My job is to make stories, and the language in which they are told, more meaningful and vibrant.
 					</p>
-					<p class="drift">The mask of Medusa rises up before you. "Close your eyes," she says. "Think of as many things in your environment as you can. List them."
+					<p class="drift">Fiction-making is a normal and important part of how we understand the world, and even when thinking and writing about reality, I often do so in terms of narrative.
 					</p>
-
-					<h2>post: plan
-					</h2>
-					<p id="overall_comments">
-						<ul>
-							<li>new possible intro</li>
-							<li>pseudo-code</li>
-							<li>2</li><li>3</li><li>4</li><li>5</li>
-						</ul>
-					</p>
-					<h2>python learning games
-					</h2>
-					<h2>drift
-					</h2>
-					<p>That was the thrill of it, sneaking game-text into files that could be up-jumped to public at any time. Continuity and Drift. Lovers and antagonists. Driven by jealousies and genuine affection. Regretful orations.
-					</p>
-					<p id="drift">Last paragraph
-
-					</p>
+					<a href="#" class="btn btn-outline-secondary" data-toggle="collapse" data-target="#more_books">Listen to me talk more about writing and editing.</a>
+					<div id="more_games" class="collapse">
+						<div class="container-fluid padding">
+							
+						</div>
+					</div>
 				</article>
 			</main>
 		</div>
@@ -282,10 +274,10 @@ I can use it as a template to try to build other, more interesting branches.
 -->
 
 <!--- Meet the team -->
-<div class="container-fluid padding">
+<div class="container-fluid padding" id="projects">
 	<div class="row welcome text-center">
 		<div class="col-12">
-			<h2 class="display-4">Three different Things
+			<h2 class="display-4">Projects
 			</h2>
 		</div>
 		<hr>
@@ -296,38 +288,90 @@ I can use it as a template to try to build other, more interesting branches.
 <div class="container-fluid padding">
 	<div class="row padding">
 		<div class="col-md-4">
-			<div class="card">
+			<div class="card" id="improv">
 				<img class="card-img-top" src="img/team1.png">
 				<div class="card-body">
-					<h3 class="card-title">thing 1</h3>
+					<h3 class="card-title">Improvised Learning</h3>
 
-					<p class="card-text">the first thing has the status of thinghood, shared with other things.
+					<p class="card-text">A book combining a collection of improvisational games that can be used in language learning and personal essays about teaching English around the world. 
 					</p>
-					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+					<a href="#" class="btn btn-outline-secondary" data-toggle="collapse" data-target="#more_improv">Read more about my book.</a>
+
 				</div>
+				<!--
+					<a href="#" class="btn btn-primary" data-toggle="collapse" data-target="#more_text">Learn More</a>
+		</div>
+	</div>
+	
+	
+			-->
 			</div>
 		</div>
 		<div class="col-md-4">
-			<div class="card">
+			<div class="card" id="games">
 				<img class="card-img-top" src="img/team2.png">
 				<div class="card-body">
-					<h3 class="card-title">thing 2</h3>
+					<h3 class="card-title">Writing and Learning Games in the Python Programming Language</h3>
 
-					<p class="card-text">the second thing has the status of thinghood, shared with other things.
+					<p class="card-text">An open source repository of simple scripts to gamify writing productivity and practicing vocab in a second language. You will need to have a version of python installed.
 					</p>
-					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+					<a href="#" class="btn btn-outline-secondary" data-toggle="collapse" data-target="#more_games">See a List of Python Games</a>
 				</div>
 			</div>
 		</div>
 		<div class="col-md-4">
-			<div class="card">
+			<div class="card" id="web">
 				<img class="card-img-top" src="img/team3.png">
 				<div class="card-body">
-					<h3 class="card-title">thing 3</h3>
+					<h3 class="card-title">Web Development</h3>
 
-					<p class="card-text">the third thing also has the status of thinghood, shared with other things.
+					<p class="card-text">Every time I go through this website, or the <a>New Language Studio</a>, I try to improve the natural and coding language.
 					</p>
-					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+					<p>
+						My business landing page has code more or less identical to this site, and uses the same libraries and dependencies. This site is under a <a href="https://www.gnu.org/licenses/gpl-3.0-standalone.html">GNU Public License</a>, however, and can be used for educational or professional purposes.   
+					</p>
+					<a href="#" class="btn btn-outline-secondary" data-toggle="collapse" data-target="#more_web">Learn More about the tools I used.</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid padding">
+	<div id="more_improv" class="collapse">
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<p>I'm sitting in my office in Teotitlan de Flores Magon, at the Universidad de la Cañada.
+				</p>
+				<p>I'm getting paid to be here, yet until October first don't have any classes to teach, so I'm working on my own projects, and learning web design and programming skills.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="more_games" class="collapse">
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<p>Another program I wrote for fun takes any text file and turns it into a poem, using randomly selected phrases.
+				</p>
+				<p>The Story game allows a player to add their own elements to a meta-level role playing game to encourage them to achieve a higher word count.
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div id="more_web" class="collapse">
+		<div class="container-fluid padding">
+			<div class="row row-padding">
+
+				<div class="col-lg-6">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/9cKsq14Kfsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="col-lg-6">
+
+				<div class="row text-center row-padding">
+			<p>This website was made with the help of this tutorial.
+			</p>			
+			<p>I've subsequently made tweaks and changes, and am trying to add the parallax effect from my previous design.
+			</p>
 				</div>
 			</div>
 		</div>
@@ -367,6 +411,14 @@ I can use it as a template to try to build other, more interesting branches.
 				<p>I'm sitting in my office in Teotitlan de Flores Magon, at the Universidad de la Cañada.
 				</p>
 				<p>I'm getting paid to be here, yet until October first don't have any classes to teach, so I'm working on my own projects, and learning web design and programming skills.
+				</p>
+				<p>This website is an extension of a hobby, which may or may not have practical applicatins in the future. </p>
+				<p>
+
+In some ways, there already are. Software fluency has changed the way I edit, write, and collaborate with others. 
+				</p>
+				<p>
+Open Source libraries, languages, and programs reflect how I understand language, and that specialized branch of language known as fiction. 
 				</p>
 			</div>
 

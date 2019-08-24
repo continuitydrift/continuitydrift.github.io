@@ -13,12 +13,12 @@ Cadence for reviewing and revising this file:
 6. add to todo
 
 todo: future change log
-1- [ ] add blog
+- [ ] add blog
   o write
   o edit
 	o format
 	o add image
-2-import material from continuity index and drift index
+- import material from continuity index and drift index
 3- put blog entry into proper section
 4:github
 ::create experimental branch and push changes?
@@ -62,7 +62,7 @@ I can use it as a template to try to build other, more interesting branches.
 <body>
 
 <!-- Navigation
-   _   _   _   _o
+   _   _   _   _
   / \_/ \_/ \_/ \
   \_/ \_? \_/ \_/
                    _
@@ -84,19 +84,19 @@ I can use it as a template to try to build other, more interesting branches.
 					<a class="nav-link" href="#">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">About</a>
+					<a class="nav-link" href="#about">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Books</a>
+					<a class="nav-link" href="#books">Books</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Webcomic</a>
+					<a class="nav-link" href="#projects">Projects</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Music</a>
+					<a class="nav-link" href="#music">Music</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Blog</a>
+					<a class="nav-link" href="#blog">Blog</a>
 				</li>
 			</ul>
 		</div>
@@ -105,6 +105,8 @@ I can use it as a template to try to build other, more interesting branches.
 
 
 <!--- Image Slider -->
+
+
 <div id="slides" class="carousel slide" data-ride="carousel">
 	<ul class="carousel-indicators">
 		<li data-target="#slides" data-slide-to="0" class="active">"0"</li>
@@ -113,16 +115,29 @@ I can use it as a template to try to build other, more interesting branches.
 	</ul>
 	<div class="carousel-inner">
 		<div class="carousel-item active">
-			<img src="img/background.png" alt="Large, roughly drawn image of a human in a spacesuit.">
-		</div>
-		<div class="carousel-caption">
+			<img id="first_big" src="img/background.png" alt="Large, roughly drawn image of a human in a spacesuit.">
+			<div class="carousel-caption">
 			<h1 class="display-2">Continuity Drift</h1>
 			<h2>
 				Epic Interdimensionality
 			</h2>
+			<!--I don't really have a use for these buttons right now
 			<button type="button" class="btn btn-outline-light btn-lg">text</button>
 			<button type="button" class="btn btn-primary btn-lg">images</button>
+			-->
+			</div>
 		</div>
+		<script>
+
+			var pics=["img/background.png", "img/background2.png", "img/background3.png", "img/background4.png"];
+
+			var big_back = pics[Math.floor(Math.random()*pics.length)];
+
+
+		  document.getElementById("first_big").innerHTML = big_back;
+			</script>
+
+
 		<div class="carousel-item">
 			<img src="img/background2.png" alt="Close up of a human's face.">
 		</div>
@@ -130,27 +145,39 @@ I can use it as a template to try to build other, more interesting branches.
 			<img src="img/background3.png" alt="Large person in a space suit, standing on a very small planet. Diagonal perspective" >
 		</div>
 
-		</div>
-
 	</div>
+
+</div>
 
 
 <!--- Jumbotron -->
 <div class="container-fluid">
-	<div class="row jumbotron">
+	<div class="row jumbotron text-center">
 		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-			<p class="lead">
-				Continuity Drift, the novel, will be published in 2022.
-			</p>
+
+				<p class="lead">
+					Continuity Drift, the novel, will be published in 2022.
+				</p>
+
+				<div id="more_drift" class="collapse">
+					<div class="container-fluid padding">
+						<p>
+								Telepathic Ice Apes, Antigravity, Steampunk, Bookpunk, Climate Fiction, Speculative Fiction, and Far Future Space Opera.
+						</p>
+						<p>Dimensional Storms bring six different worlds into contact. None of them will survive unchanged.
+						</p>
+					</div>
+				</div>
+
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-			<a href="#"><button type="button" class="btn btn-outline-secondary ctn-lg">Join the Mailing List</button></a>
+			<a href="#" class="btn btn-outline-secondary ctn-lg"  data-toggle="collapse" data-target="#more_drift">Learn More about the Drift</a>
 		</div>
 	</div>
 </div>
 <!--- Welcome Section -->
 <header>
-<div class="container-fluid padding">
+<div id="about" class="container-fluid padding">
 	<div class="row welcome text-center">
 		<div class="col-12">
 			<h2 class="display-4">You've heard this story before. I'm going to tell it differently.</h2>
@@ -161,7 +188,7 @@ I can use it as a template to try to build other, more interesting branches.
 			<p id="about_drift" class="lead"></p>
 			<script>
 
-			var abouts=["Exploring the troughs and valleys of digital landscapes.", "Continuity Drift is a open source collection of ideas, words, and images.", "Rather than static content, every time I edit this section of the webpage I add a sentence or two to a list of possible blocks of text, which are chosen from randomly when the page loads.", "As long as there is incremental progress, I can rest in the feeling that my proficiency in coding and web design is analogous, somehow, to working on a book.", "The most important thing is the climate. All of us that are alive at this historical moment are heros in an epic story of ecosystemic survival.", "Sometimes we invisible relationships that determine matrices of power and control become almost painfully evident. All governance, submission, etc, is held within glances, within fragile constructs of momentary conviction.","I don't believe in the inferiority of drafts, in the subservience of rehearsal to some kind of performance. Especially with this webpage, incrementally pushed upwards into something reflecting how interesting I find the world."];
+			var abouts=["Exploring the troughs and valleys of digital landscapes.", "Continuity Drift is a open source collection of ideas, words, and images.", "Rather than static content, every time I edit this section of the webpage I add a sentence or two to a list of possible blocks of text, which are chosen from randomly when the page loads.", "As long as there is incremental progress, I can rest in the feeling that my proficiency in coding and web design is analogous, somehow, to working on a book.", "The most important thing is the climate. All of us that are alive at this historical moment are heros in an epic story of ecosystemic survival.", "Sometimes we invisible relationships that determine matrices of power and control become almost painfully evident. All governance, submission, etc, is held within glances, within fragile constructs of momentary conviction.","I don't believe in the inferiority of drafts, in the subservience of rehearsal to some kind of performance. Especially with this webpage, incrementally pushed upwards into something reflecting how interesting I find the world.", "Written and visual arts are tools for cognition and telepathy."];
 
 			var hi_text = abouts[Math.floor(Math.random()*abouts.length)];
 
@@ -211,46 +238,40 @@ I can use it as a template to try to build other, more interesting branches.
 </div>
 -->
 <!--- Two Column Section -->
-<div class="container-fluid padding">
-	<div class="row row-padding">
+<div id="books" class="container-fluid padding">
+	<main>
+		<article>
+			<div class="row row-padding">
+				<div class="col-md-12 col-lg-6">
 
-		<div class="col-md-12 col-lg-6">
-			<main>
-				<article>
-					<h1>Continuity Drift: New Language Studio
+					<h1>Books
 					</h1>
-					<h2>Noticias
+					<h2>Writing and Editing
 					</h2>
-					<p>There is an ostensible goal and content, and then there is the subtext, the associations, the illogical drift. At the core of a happy existence could be bridging and mapping out the difference.
+					<p>I've loved books all of my life. My purpose is to make stories, and the language in which they are told, more meaningful and vibrant.
 					</p>
-					<p class="drift">The mask of Medusa rises up before you. "Close your eyes," she says. "Think of as many things in your environment as you can. List them."
+					<p class="drift">Fiction-making is a normal and important part of how we understand the world, and even when thinking and writing about reality, I often do so in terms of narrative.
 					</p>
+					<a href="#" class="btn btn-outline-secondary" data-toggle="collapse" data-target="#more_books">Listen to me talk more about writing and editing.</a>
+					<div id="more_books" class="collapse">
+						<div class="row row-padding">
+							<div class="container-fluid padding">
+								<p>
 
-					<h2>post: plan
-					</h2>
-					<p id="overall_comments">
-						<ul>
-							<li>new possible intro</li>
-							<li>pseudo-code</li>
-							<li>2</li><li>3</li><li>4</li><li>5</li>
-						</ul>
-					</p>
-					<h2>python learning games
-					</h2>
-					<h2>drift
-					</h2>
-					<p>That was the thrill of it, sneaking game-text into files that could be up-jumped to public at any time. Continuity and Drift. Lovers and antagonists. Driven by jealousies and genuine affection. Regretful orations.
-					</p>
-					<p id="drift">Last paragraph
-
-					</p>
-				</article>
-			</main>
-		</div>
-		<div class="col-md-12 col-lg-6">
-			<img src="img/desk.png" class="img-fluid">
-		</div>
-	</div>
+									</p>
+							<h2>Existing</h2>
+							<p>
+							Writing and Editing has something to do, for me, with being happy with existing. To rest for a moment content knowing that your physical needs are met, and to stretch out into far-sighted conjecture.
+							</p>
+							</div>
+						</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-lg-6">
+				<img src="img/desk.png" class="img-fluid">
+			</div>
+		</article>
+	</main>
 </div>
 
 <hr class="my-4">
@@ -287,10 +308,10 @@ I can use it as a template to try to build other, more interesting branches.
 -->
 
 <!--- Meet the team -->
-<div class="container-fluid padding">
+<div class="container-fluid padding" id="projects">
 	<div class="row welcome text-center">
 		<div class="col-12">
-			<h2 class="display-4">Three different Things
+			<h2 class="display-4">Projects
 			</h2>
 		</div>
 		<hr>
@@ -301,38 +322,89 @@ I can use it as a template to try to build other, more interesting branches.
 <div class="container-fluid padding">
 	<div class="row padding">
 		<div class="col-md-4">
-			<div class="card">
+			<div class="card" id="improv">
 				<img class="card-img-top" src="img/team1.png">
 				<div class="card-body">
-					<h3 class="card-title">thing 1</h3>
+					<h3 class="card-title">Improvised Learning</h3>
 
-					<p class="card-text">the first thing has the status of thinghood, shared with other things.
+					<p class="card-text">A book combining a collection of improvisational games that can be used in language learning and personal essays about teaching English around the world.
 					</p>
-					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+					<a href="#" class="btn btn-outline-secondary" data-toggle="collapse" data-target="#more_improv">Read more about my book.</a>
+
 				</div>
+				<!--
+					<a href="#" class="btn btn-primary" data-toggle="collapse" data-target="#more_text">Learn More</a>
+		</div>
+	</div>
+
+
+			-->
 			</div>
 		</div>
 		<div class="col-md-4">
-			<div class="card">
+			<div class="card" id="games">
 				<img class="card-img-top" src="img/team2.png">
 				<div class="card-body">
-					<h3 class="card-title">thing 2</h3>
+					<h3 class="card-title">Writing and Learning Games in the Python Programming Language</h3>
 
-					<p class="card-text">the second thing has the status of thinghood, shared with other things.
+					<p class="card-text">An open source repository of simple scripts to gamify writing productivity and practicing vocab in a second language. You will need to have a version of python installed.
 					</p>
-					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+					<a href="#" class="btn btn-outline-secondary" data-toggle="collapse" data-target="#more_games">See a List of Python Games</a>
 				</div>
 			</div>
 		</div>
 		<div class="col-md-4">
-			<div class="card">
+			<div class="card" id="web">
 				<img class="card-img-top" src="img/team3.png">
 				<div class="card-body">
-					<h3 class="card-title">thing 3</h3>
+					<h3 class="card-title">Web Development</h3>
 
-					<p class="card-text">the third thing also has the status of thinghood, shared with other things.
+					<p class="card-text">Every time I go through this website, or the <a>New Language Studio</a>, I try to improve the natural and coding language.
 					</p>
-					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+					<p>
+						My business landing page has code more or less identical to this site, and uses the same libraries and dependencies. This site is under a <a href="https://www.gnu.org/licenses/gpl-3.0-standalone.html">GNU Public License</a>, however, and can be used for educational or professional purposes.
+					</p>
+					<a href="#" class="btn btn-outline-secondary" data-toggle="collapse" data-target="#more_web">Learn More about the tools I used.</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid padding">
+	<div id="more_improv" class="collapse">
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<p>I'm sitting in my office in Teotitlan de Flores Magon, at the Universidad de la Cañada.
+				</p>
+				<p>I'm getting paid to be here, yet until October first don't have any classes to teach, so I'm working on my own projects, and learning web design and programming skills.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="more_games" class="collapse">
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<p>Another program I wrote for fun takes any text file and turns it into a poem, using randomly selected phrases.
+				</p>
+				<p>The Story game allows a player to add their own elements to a meta-level role playing game to encourage them to achieve a higher word count.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="more_web" class="collapse">
+		<div class="container-fluid padding">
+			<div class="row row-padding">
+
+				<div class="col-lg-6">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/9cKsq14Kfsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="col-lg-6">
+
+				<div class="row text-center row-padding">
+			<p>This website was made with the help of this tutorial.
+			</p>
+			<p>I've subsequently made tweaks and changes, and am trying to add the parallax effect from my previous design.
+			</p>
 				</div>
 			</div>
 		</div>
@@ -341,29 +413,48 @@ I can use it as a template to try to build other, more interesting branches.
 
 
 <!--- Two Column Section -->
-<div class="container-fluid padding">
+<div class="container-fluid padding" id="blog">
 	<div class="row row-padding">
 
 		<div class="col-lg-6">
 		<img src="img/bootstrap2.png" class="img-fluid">
 		</div>
 		<div class="col-lg-6">
-
-		<h2>Web Comic</h2>
-		<p>Continuity Drift has been a web comic sporadically since 2008.</p>
-		<p>Learning becomes easier when games and tasks are relevant to context and hands-on experiment.
+			<article>
+		<h2>Web Site Redesign</h2>
+		<h3>August 5th, 2019</h3>
+		<p>By the end of the week, I'd like to have a functional version of this website pushed to github.</p>
+		<p>The week after that, I'd like to use the template I develop here for my professional website, <a href="www.newlanguagestudio.com">New Language Studio</a>
 		</p>
-		<p>Currently updating weekly.
+		<p>As much as I'm trying to develop technical skills like <b>html</b>, <b>css</b>, and <b>javascript</b>, I'm also trying to hone my time management skills.
 		</p>
-		<h2>Ecologies</h2>
-		<p>I want to explore the crowd-sourcing of scientific and literary enterprise.</p>
-		<p>Learning becomes easier when games and tasks are relevant to context and hands-on experiment.
+		<h2>Learning</h2>
+		<p>I've been trying to figure out firebase hosting, as well as playing around with python.</p>
+		<p>For example, the next thing I want to do is to have the button below expand out into a much longer text.
 		</p>
-		<p>This should be half screen at large.
-		</p>
-		<a href="#" class="btn btn-primary">Learn More</a>
+		<a href="#" class="btn btn-primary" data-toggle="collapse" data-target="#more_text">Learn More</a>
 		</div>
 	</div>
+
+	<div id="more_text" class="collapse">
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<p>I'm sitting in my office in Teotitlan de Flores Magon, at the Universidad de la Cañada.
+				</p>
+				<p>I'm getting paid to be here, yet until October first don't have any classes to teach, so I'm working on my own projects, and learning web design and programming skills.
+				</p>
+				<p>This website is an extension of a hobby, which may or may not have practical application in the future.</p>
+				<p>
+Software fluency has changed the way I edit, write, and collaborate with others.
+				</p>
+				<p>
+Open Source libraries, languages, and programs reflect how I understand language, and that specialized branch of language known as fiction.
+				</p>
+			</div>
+
+		</div>
+	</div>
+</article>
 
 </div>
 
@@ -375,16 +466,17 @@ I can use it as a template to try to build other, more interesting branches.
 			<h2>Connect</h2>
 		</div>
 		<div class="col-12 social padding">
-			<a href="#"><i class="fab fa-twitter"></i></a>
-			<a href="#"><i class="fab fa-instagram"></i></a>
-			<a href="#"><i class="fab fa-facebook"></i></a>
-			<a href="#"><i class="fab fa-soundcloud"></i></a>
-			<a href="#"><i class="fab fa-github"></i></a>
+			<a href="https://twitter.com/continuitydrift"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.instagram.com/continuitydrift/"><i class="fab fa-instagram"></i></a>
+			<!--
+			<a href="#"><i class="fab fa-facebook"></i></a>-->
+			<a href="https://soundcloud.com/chad-hines-371003299"><i class="fab fa-soundcloud"></i></a>
+			<a href="https://github.com/continuitydrift"><i class="fab fa-github"></i></a>
 
 
 	</div>
 </div>
-<!--Parallax-->
+<!--Parallax
 
 
 <div class="container-fluid" id = "parallax_scene">
@@ -403,14 +495,7 @@ I can use it as a template to try to build other, more interesting branches.
   data-friction-y=".1"
   data-origin-x="0.0"
   data-origin-y="0.0">
-    <!--original
-      <li class="layer" data-depth="1.00"><img src="images/layer1.png"></li>
-      <li class="layer" data-depth="0.80"><img src="images/layer2.png"></li>
-      <li class="layer" data-depth="0.60"><img src="images/layer3.png"></li>
-      <li class="layer" data-depth="0.40"><img src="images/layer4.png"></li>
-      <li class="layer" data-depth="0.20"><img src="images/layer5.png"></li>
-      <li class="layer" data-depth="0.00"><img src="images/layer6.png"></li>
-    experimental-->
+
 
     <li class="layer" data-depth="0.04"><img class= "img" src="images/wreckage/layer_6.png"></li>
     <li class="layer" data-depth="0.10"><img class= "img" src="images/wreckage/layer_5.png"></li>
@@ -420,17 +505,17 @@ I can use it as a template to try to build other, more interesting branches.
     <li class="layer" data-depth="0.00"><img class= "img" src="images/wreckage/layer_3.png"></li>
 
     </ul>
-    <!--
+
 So the challenge now seems to be to
 1. put the styles for the scene in a style-sheet, rather than"in-line"
 2. make it so that a new scene can be loaded with every page load.
-    -->
+
   </div>
-  <!--end scene-->
+
   </div>
-  <!--end curtain-->
+
   </div>
-  <!--end row-->
+
 </div>
   <!--end parallax scene container
 
@@ -442,16 +527,16 @@ So the challenge now seems to be to
 			<hr class="light">
 				<img src="img/footer.png">
 
-				<p>phone</p>
-				<p>email</p>
-				<p>street</p>
-				<p>city</p>
+				<!--<p>phone</p>-->
+				<p>email: chad (at) newlangaugestudio.com</p>
+				<p>Teotitlan de Flores Magon</p>
+				<p>Mexico</p>
 
 
 			</div>
 			<div class="col-md-4">
 				<hr class="light">
-				<h3>schedule</h3>
+				<h3>Update Schedule</h3>
 				<hr class="light">
 				<p>Blog: Saturdays</p>
 				<p>Webcomic: Fridays</p>
@@ -459,15 +544,16 @@ So the challenge now seems to be to
 			</div>
 			<div class="col-md-4">
 				<hr class="light">
-				<h3>upcoming</h3>
+				<h3>Upcoming Books</h3>
 				<hr class="light">
-				<p>Improvisational Learning: GAmes and Stories</p>
+				<p>Improvisational Learning: Games and Stories</p>
 				<p>Continuity Drift: The Novel</p>
-				<p>The Music: Microscopic Aliens Have Conquered Earth</p>
+				<p>The Music: Dark Science Fiction</p>
 			</div>
 			<div class="col-12">
 				<hr class="light-100">
-				<h3>creative commons</h3>
+				<img source="www.gnu.org/graphics/gplv3-or-later.svg" class="img-fluid">
+				<h3>Gnu Public License</h3>
 			</div>
 		</div>
 	</div>
@@ -475,7 +561,7 @@ So the challenge now seems to be to
 
 
 
--->
+
 
 </body>
 </html>

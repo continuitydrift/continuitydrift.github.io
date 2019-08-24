@@ -1,8 +1,5 @@
 <!--
 
-Thanks to the youtube tutorial about responsibe website design with bootstrap4.
-
-
 
 Cadence for reviewing and revising this file:
 1. look at live version
@@ -21,7 +18,7 @@ todo: future change log
 - import material from continuity index and drift index
 3- put blog entry into proper section
 4:github
-::create experimental branch and push changes?
+x create experimental branch and push changes?
 
 5-Go through old css and see what to import--make new stylesheet?
 6-
@@ -36,7 +33,7 @@ I can use it as a template to try to build other, more interesting branches.
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=1, user-scalable=no"">
+	<meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=1, user-scalable=no">
 
 	<!--last two added from parallax example-->
 	<title>Continuity Drift</title>
@@ -127,27 +124,41 @@ I can use it as a template to try to build other, more interesting branches.
 			-->
 			</div>
 		</div>
-		<script>
-
-			var pics=["img/background.png", "img/background2.png", "img/background3.png", "img/background4.png"];
-
-			var big_back = pics[Math.floor(Math.random()*pics.length)];
-
-
-		  document.getElementById("first_big").innerHTML = big_back;
-			</script>
-
+	
 
 		<div class="carousel-item">
-			<img src="img/background2.png" alt="Close up of a human's face.">
+			<img id="second_big" src="img/background2.png" alt="Close up of a human's face.">
 		</div>
 		<div class="carousel-item">
-			<img src="img/background3.png" alt="Large person in a space suit, standing on a very small planet. Diagonal perspective" >
+			<img id="third_big" src="img/background3.png" alt="Large person in a space suit, standing on a very small planet. Diagonal perspective" >
 		</div>
 
 	</div>
 
 </div>
+	<script>
+
+			var pics=["img/background.png", "img/background2.png", "img/background3.png", "img/background4.png"];
+
+			var big_back = pics[Math.floor(Math.random()*pics.length)];
+			var big_back_2 = pics[Math.floor(Math.random()*pics.length)];
+			var big_back_3 = pics[Math.floor(Math.random()*pics.length)];
+
+/*
+		  document.getElementById("first_big").innerHTML = big_back;
+		  */
+		   function changeImage(b,a) {
+	        document.getElementById(b).src=a;
+	        /*
+	        document.getElementById("second_big").src=a;
+	        document.getElementById("third_big").src=a;
+	        */
+	   	 };
+	    	changeImage("first_big", big_back)
+	    	changeImage("second_big", big_back_2)
+	    	changeImage("third_big", big_back_3)
+
+			</script>
 
 
 <!--- Jumbotron -->

@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "New Blog"
+date:   2019-08-28 18:21:00 -0500
+categories: personal
+---
+
+The next thing I wanted to add to my webpage was a functional blog. While looking for templates, I learned about Jekyll, and since I was already using Github pages, I thought I would give it a try. 

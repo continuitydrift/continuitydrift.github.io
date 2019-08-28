@@ -28,7 +28,7 @@ twitter_username: continuitydrift
 github_username:  continuitydrift
 
 # Build settings
-theme: jekyll-theme-hacker
+theme: default
 plugins:
   - jekyll-feed
 

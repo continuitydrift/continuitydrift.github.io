@@ -1,5 +1,6 @@
 ---
 author: Chad
+project: blog
 ---
 
 As soon as possible, I need to get a functional site up at the [New Language Studio](www.newlanguagestudio.com).

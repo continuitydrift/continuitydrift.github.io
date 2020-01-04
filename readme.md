@@ -1,6 +1,13 @@
 # Continuity Drift
-## Jekyll
-I started trying to create a version of my github profile page yesterday using Jekyll, with limited success.
+## About
+This website uses Jekyll because that is what seems most compatible with Github pages.
+
+##
+##
+##
+##
+##
+
 ### Cloning Repositories
 My first attempts involved cloning or forking complicated repositories, and the being unable to use them because for one reason or another the gems or dependencies prevented me from building the site.
 I thought the problem might be that I was trying to host them as project pages instead of my main user page, hence why I'm trying again in this folder.

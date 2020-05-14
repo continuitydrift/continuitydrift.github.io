@@ -25,7 +25,7 @@ email: chadahines@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Putting noise into the signal, and signal into the noise. Continuity Drift is the label under which I stream, create music and artwork, and generally use more words than necessary.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "continuitydrift.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: continuitydrift
 github_username:  continuitydrift
 

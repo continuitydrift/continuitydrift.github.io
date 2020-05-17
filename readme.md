@@ -9,3 +9,11 @@ I am a writer, not a web designer. Nonetheless, I find myself drawn to technolog
 Despite the frustrations of trying to navigate the treacherous stretches of these digital landscapes, here is the truth: the potential for expression with even the most rudimentary tools is embarassingly large. Take this readme.md file, for example.
 
 I can, with minimal markdown syntax, link to [an image](www.continuitydrift.github.io/drift.jpg), or [a song](www.continuitydrift.github.io/circles.mp3).  
+
+Okay, I stand corrected. I couldn't get those links to work, even though the files exist in the repository. Theoretically, I could post them somewhere else on the internet.
+
+Or, I can dwell within the limitations, bask in the native possibilities of simple text, use the linguistic palatte of infinite shades to paint just-bloomed Irises hanging heavy in the rain, or an alien landscape of sentient dust clouds under cerulian moons.
+
+# Unusual Adaptations
+
+That, I suppose, is my philosophy, not becoming a hacker but finding the obvious and elegant hacks of refusing to play, of pausing and exploring the excruciating potentials of what is readily available. Not to build machines, but grow gardens.

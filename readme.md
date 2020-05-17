@@ -8,4 +8,4 @@ I am a writer, not a web designer. Nonetheless, I find myself drawn to technolog
 
 Despite the frustrations of trying to navigate the treacherous stretches of these digital landscapes, here is the truth: the potential for expression with even the most rudimentary tools is embarassingly large. Take this readme.md file, for example.
 
-I can, with minimal markdown syntax, link to [an image](https://www.continuitydrift.github.io/drift.jpg), or [a song](https://www.continuitydrift.github.io/circles.mp3).  
+I can, with minimal markdown syntax, link to [an image](www.continuitydrift.github.io/drift.jpg), or [a song](www.continuitydrift.github.io/circles.mp3).  

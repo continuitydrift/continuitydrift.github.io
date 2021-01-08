@@ -2,11 +2,11 @@
 main:
   - title: "New Language Studio"
     url: https://newlanguagestudio.com
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "Sample Posts"
+  - title: "About"
+    url: https://continuitydrift.github.io/about
+  - title: "Posts"
     url: /year-archive/
-  - title: "Sample Collections"
+  - title: "Collections"
     url: /collection-archive/
   - title: "Sitemap"
     url: /sitemap/

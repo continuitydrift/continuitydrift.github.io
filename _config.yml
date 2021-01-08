@@ -9,13 +9,13 @@
 # I changed this -CH
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" #,"default"  "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" #,"default"  "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Continuity Drift"
 title_separator          : "-"
-subtitle                 :  Putting noise into the signal, and signal to the noise
+subtitle                 :  Putting noise into the signal, and signal into the noise
 name                     : "C. A. Hines"
 description              : "Personal Website, for evolving words and images."
 url                      :  "https://continuitydrift.github.io"
@@ -98,7 +98,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:chad@newlanguagestudio.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://newlanguagestudio.com"

@@ -1,7 +1,7 @@
     ---
 title:  "Natural Language Processing"
 header:
-  teaser: "https:http://newlanguagestudio.com/images/dreamscape.jpg"
+  teaser: "https://newlanguagestudio.com/images/dreamscape.jpg"
 categories:
   - Python
 tags:
@@ -16,6 +16,8 @@ The following are metacharacters when searching for regular expressions in pytho
 ```
 . ^ $ * + ? { } [ ] \ | ( )
 ```
+
+<!--
 $: I am Pantalone, obviously, the Zanni attuned to wealth.
 ?: Shall I, then, be dottore?
 +:
@@ -26,8 +28,9 @@ $: I am Pantalone, obviously, the Zanni attuned to wealth.
 \:
 |: I think I am the or operator, so Or20.
 ^: The climber. Ascentheist cleric.
+-->
 
-It seems like I've got this site to work, more or less.
+
 
 To add new posts, simply add a file in the `_posts`[^posts] directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 

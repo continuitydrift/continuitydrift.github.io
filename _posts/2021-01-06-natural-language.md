@@ -1,4 +1,4 @@
----
+    ---
 title:  "Natural Language Processing"
 header:
   teaser: "https:http://newlanguagestudio.com/images/dreamscape.jpg"
@@ -7,6 +7,26 @@ categories:
 tags:
   - update
 ---
+
+# Regular Expressions in Python
+
+# meta characters
+
+The following are metacharacters when searching for regular expressions in python:
+```
+. ^ $ * + ? { } [ ] \ | ( )
+```
+$: I am Pantalone, obviously, the Zanni attuned to wealth.
+?: Shall I, then, be dottore?
++:
+{}:
+[]:
+.: I am Drift, the destroyer of sentences.
+(): Well, I am Continuity, the tangential continuance (I am unwilling to end(and prone to endless recursions)).
+\:
+|: I think I am the or operator, so Or20.
+^: The climber. Ascentheist cleric.
+
 It seems like I've got this site to work, more or less.
 
 To add new posts, simply add a file in the `_posts`[^posts] directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.

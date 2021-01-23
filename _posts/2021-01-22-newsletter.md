@@ -1,6 +1,6 @@
 ---
 title: "Meta: Newsletter"
-layout: posts
+layout: post
 header:
   image: /assets/images/unsplash-image-6.jpg
   caption: "Photo credit: [**New Language Studio**](https://newlanguagestudio.com)"

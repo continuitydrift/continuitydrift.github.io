@@ -138,10 +138,11 @@ footer:
       url: "https://instagram.com/continuitydrift"
 
 
-# Reading Files
+# Reading Files   ---CHANGED -CH
 include:
   - .htaccess
   - _pages
+  - _portfolio
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

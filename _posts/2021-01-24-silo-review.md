@@ -3,9 +3,9 @@ title: "After the Silo"
 classes: wide
 header:
   image: /assets/images/unsplash-image-4.jpg
-  caption: "Photo credit: [**New Language Studio**](https://newlanguagestudio.com)"
+  caption: [**New Language Studio**](https://newlanguagestudio.com)"
 excerpt: "Book review to be included in the first New Language Studio Newsletter, on Silo, by Hugh Howey."
-tags: 
+tags:
   - Silo
   - book review
   - review
@@ -17,11 +17,12 @@ tags:
 
 Books require collaboration with memory. With a movie, the details never need to leave short-term storage. Characters and situations are brought before the mind, and then hours later are allowed to fade. Episodic television might require more long-term recall of details, but I think it reasonable to say that books generally sound off at a deeper frequency, with more distance between the summits and the troughs.
 
-It's been a while since I read the Silo series, by Hugh Howey. Even longer, now, than when I wrote those words[^1]. Memory, though, can be an interesting lens through which to view a narrative, using yourself as an experimental subject, seeing what it is you most remember.
+It's been a while since I read the Silo series, by Hugh Howey. Even longer, now, than when I wrote those words[^1]. Memory, though, can be an interesting lens, seeing what it is you most remember.
 
 This review will be in two parts, the first intended for people who haven't yet read the series, and the second for those who have and won't mind spoilers.
 
-The term speculative fiction captures my main motivation to read: to speculate. While reading you are allowed to free associate and entertain divergent currents of thought. Silo depicts a post-apocalyptic world where the entirety of the human population lives in an underground facility. Howey does a good job creating characters that provoke speculation on the psychological effects of living in a literally closed society, which, of course, can stand metaphorically for a figurative one (quite possibly our own).
+<!-- The term speculative fiction captures my main motivation to read: to speculate. While reading you are allowed to free associate and entertain divergent currents of thought.  -->
+Silo depicts a post-apocalyptic world where the entirety of the human population lives in an underground facility. Howey does a good job creating characters that provoke speculation on the psychological effects of living in a literally closed society.
 
 The books are science fiction, though, and not allegory, so one carries into the experience expectations that the story would also suggest speculation at the level of technology or world-building. The dystopia should be one you can imagine happening, not just as a psycho-drama or exercise in symbolism. That is where the books fall somewhat short.
 
@@ -47,12 +48,29 @@ Looking for my next job, I'm struck by how difficult lateral moves are, how isol
 
 DYSTOPIAN FICTION IN THE TIME OF THE CORONA VIRUS
 
-"WOOL is a story about humanity living indoors because the air outside might kill them," Howey recently tweeted.
+`"WOOL is a story about humanity living indoors because the air outside might kill them,"` Howey recently tweeted.
 
-"It was supposed to be fiction."
+`"It was supposed to be fiction."`
 
-I don't want 
+I don't want
+
+# Bonus Content
+
+This is the first book review posted to this github, Jekyll-powered site.
+
+The irony is that publishing content on a free site is, at this point, easier than doing so on a paid hosting platform.
+
+It could be, too, that I have more motivation to learn about software and technologies that are open source. I recently learned that Django, the python web hosting library, was developed in Lawrence KS for a local Entertainment website.
+
+I'm typing this using Sublime editor. I paid for a subscription to a website where you can train for certain shortcuts. They have Sublime, and Vim. Vim is open source, while Sublime, while free, is not. Vim really only runs on Linux, but I use Linux to build this website, because it is too difficult getting all the dependencies for Jekyll to run in Windows.
+
+There are silos, dividing cross-compatibility along brand loyalties, adding obstacles to communication, not realizing that this is detrimental to the functioning of the super-organism as a whole.
+
+Here is what I remember thinking was unrealistic: that the planners for the Silos, the self-contained post-apocalypse, wouldn't recognize the need for as much genetic and social cross-pollination between the surviving tribes as possible.
+
+The massive spoiler is that only one of the silos---determined most fit by some metrics of command-and-control--is meant to survive. This means that the planners had built in 90% inefficiency, which considering the bottlenecks a world after nuclear blasts and nanite plague would be facing, would be eeven more suicidal than their attempt to end most of human life on Earth to begin with.
+
+The reason I'm writing these book reviews, and books, is to put some noise back into the signal, which means putting signal into the noise. The cognitive potential of social organisms needs to be facilitated, not dampened and manipulated.
 
 
-
-[^1] The first draft was probably in March or April of last year.
+[^1]: The first draft was probably in March or April of last year.

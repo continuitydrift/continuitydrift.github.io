@@ -2,11 +2,11 @@
 main:
   - title: "New Language Studio"
     url: https://newlanguagestudio.com
-  - title: "About"
-    url: https://continuitydrift.github.io/about
+  # - title: "About"
+    # url: https://continuitydrift.github.io/about
   - title: "Posts"
     url: /year-archive/
-  - title: "Collections"
-    url: /collection-archive/
+  # - title: "Collections"
+    # url: /collection-archive/
 #  - title: "Sitemap"
 #    url: /sitemap/

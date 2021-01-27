@@ -92,9 +92,9 @@ analytics:
 author:
   name             : "C. A. Hines"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g.
-  bio              : "Wizard of the Written Word"
+  bio              : "Speculative Fiction and Ecological Theory"
   location         : "Remote"
-  email            :
+  email            : "chad@newlanguagestudio.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -127,11 +127,11 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/continuitydrift"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
+    # - label: "GitLab"
+      # icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
+    # - label: "Bitbucket"
+      # icon: "fab fa-fw fa-bitbucket"
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
@@ -142,7 +142,8 @@ footer:
 include:
   - .htaccess
   - _pages
-  - _portfolio
+  # - _portfolio
+  # this didn't do anything, apparently -ch
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -271,7 +272,8 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: splash
+      # I changed this. Used to be single -CH
       author_profile: true
       read_time: true
       comments: # true

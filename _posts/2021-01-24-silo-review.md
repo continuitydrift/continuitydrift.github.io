@@ -3,7 +3,7 @@ title: "After the Silo"
 classes: wide
 header:
   image: /assets/images/unsplash-image-4.jpg
-  caption: [**New Language Studio**](https://newlanguagestudio.com)"
+  caption: "[**New Language Studio**](https://newlanguagestudio.com)"
 excerpt: "Book review to be included in the first New Language Studio Newsletter, on Silo, by Hugh Howey."
 tags:
   - Silo

@@ -4,7 +4,7 @@ classes: wide
 header:
   image: /assets/images/littles.jpg
   caption: "[**New Language Studio**](https://newlanguagestudio.com)"
-excerpt: "..."
+
 tags:
   - value
   - continuity

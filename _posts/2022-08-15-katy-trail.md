@@ -69,7 +69,7 @@ For shoes, I was wearing some old running shoes I'd ordered online, with holes o
 
 My tent was the only thing I'd recently purchased, an investment to push me through the barrier from a mere day-hiker to someone who isn't afraid to dream outside. Two person, but small. One of the first rules or recommendations I saw posted on the hike was *Try to avoid hiking the Katy Trail alone.* "I tried," I thought to the sign.
 
-For food, I'd packed a plastic bag of cranberries and walnuts, another of granola, a jar of peanut butter, and chopsticks. My plan was to dip the chopsticks in peanut butter, and then in granola, but this proved inpracticable.   
+For food, I'd packed a plastic bag of cranberries and walnuts, another of granola, a jar of peanut butter, and chopsticks. My plan was to dip the chopsticks in peanut butter, and then in granola, but this proved inpracticable.
 
 ![katy trail](/assets/images/katy.png)
 

@@ -71,7 +71,7 @@ My tent was the only thing I'd recently purchased, an investment to push me thro
 
 For food, I'd packed a plastic bag of cranberries and walnuts, another of granola, a jar of peanut butter, and chopsticks. My plan was to dip the chopsticks in peanut butter, and then in granola, but this proved inpracticable.   
 
-![katy trail](katy.png)
+![katy trail](/assets/images/katy.png)
 
 The first stretch of the trail, from Clinton to Calhoun, was unlovely, running next to a state highway, a thin curtain of trees, grass, and wildflowers doing little to obscure the sight or sound of traffic. Yet, such is Missouri, or the midwest in general, these stitches of asphalt somehow containing the immensity of fields and farms, attenuating imagination like blinders on a horse.
 

@@ -1,3 +1,20 @@
+---
+title: "Katy Trail"
+classes: wide
+header:
+  image: /assets/images/selfie.jpg
+  caption: "[**On the trail**](https://newlanguagestudio.com)"
+excerpt: "On the way back, my shoulders chafed from the straps, my legs sore and toe blistered, there were long shadeless stretches, punctuated with skinks, grasshoppers, and dragonflies."
+tags:
+  - value
+  - continuity
+  - drift
+  - bots
+  - robots
+  - python
+  - speculation
+---
+
 # Katy Trail
 
 I walked into Windsor, Missouri, about six in the evening, August 10th. I'd left Clinton around half past ten that morning. A caboose that had been donated to the town from the Missouri-Kansas-Texas (MKT) railway after it shut down in the 80s marks the spot of the old depot. I was near the Katy-Rick Junction, where the Rock Island Spur meets the main branch of the Katy Trail, tracking the old Missouri-Kansas-Texas (MKT) railroad. A display by the stranded caboose had a map of the town, telling me *You are Here*, a few blocks away from Main Street. The trail continued alluringly Northeast off into a shaded tunnel of trees, going to Sedalia.
@@ -54,7 +71,7 @@ My tent was the only thing I'd recently purchased, an investment to push me thro
 
 For food, I'd packed a plastic bag of cranberries and walnuts, another of granola, a jar of peanut butter, and chopsticks. My plan was to dip the chopsticks in peanut butter, and then in granola, but this proved inpracticable.
 
-![katy trail](katy.png)
+![katy trail](/assets/images/katy.png)
 
 The first stretch of the trail, from Clinton to Calhoun, was unlovely, running next to a state highway, a thin curtain of trees, grass, and wildflowers doing little to obscure the sight or sound of traffic. Yet, such is Missouri, or the midwest in general, these stitches of asphalt somehow containing the immensity of fields and farms, attenuating imagination like blinders on a horse.
 

@@ -21,7 +21,7 @@ I walked into Windsor, Missouri, about six in the evening, August 10th. I'd left
 
 ![Windsor](/assets/images/windsor-map.png)
 
-When that train car had been given to Windsor, according to the [online article](https://www.windsormo.org/area-attractions/our-caboose), the enterprising antiquarians of Windsor washed away the rust and grime of decades of accumlated use to reveal stars and stripes commemorating the "Spirit of '76". "Adding even more intrigue," the article goes on, "the original number of the caboose was discovered to be No. 76, not No. 130, as earlier thought."
+When that train car had been given to Windsor, according to the [online article](https://www.windsormo.org/area-attractions/our-caboose), the enterprising local antiquarians washed away the rust and grime of decades of accumulated use to reveal stars and stripes commemorating the "Spirit of '76". "Adding even more intrigue," the article goes on, "the original number of the caboose was discovered to be No. 76, not No. 130, as earlier thought."
 
 There was this one guy I talked to while resting by this haunted caboose, and the rain-proofed display offering a summary of its significance. In the scant seconds our interaction lasted, I felt like there was the largest transfer of information, verbal and non-verbal, of anyone I interacted with on the trip. After head nods and a few sentences, we quickly came to an understanding of who each other were.
 

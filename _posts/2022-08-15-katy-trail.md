@@ -17,7 +17,7 @@ tags:
 
 # Katy Trail
 
-I walked into Windsor, Missouri, about six in the evening, August 10th. I'd left Clinton around half past ten that morning. A caboose that had been donated to the town from the Missouri-Kansas-Texas (MKT) railway after it shut down in the 80s marks the spot of the old depot. I was near the Katy-Rick Junction, where the Rock Island Spur meets the main branch of the Katy Trail, tracking the old Missouri-Kansas-Texas (MKT) railroad. A display by the stranded caboose had a map of the town, telling me *You are Here*, a few blocks away from Main Street. The trail continued alluringly Northeast off into a shaded tunnel of trees, going to Sedalia.
+I walked into Windsor, Missouri, about six in the evening, August 10th. I'd left Clinton around half past ten that morning. A caboose that had been donated to the town from the Missouri-Kansas-Texas (MKT) railway after it shut down in the 80s marks the spot of the old depot. I was near the Katy-Rick Junction, where the Rock Island Spur meets the main branch of the Katy Trail. A display by the stranded caboose had a map of the town, telling me *You are Here*, a few blocks away from Main Street. The trail continued alluringly Northeast off into a shaded tunnel of trees, going to Sedalia.
 
 ![Windsor](/assets/images/windsor-map.png)
 

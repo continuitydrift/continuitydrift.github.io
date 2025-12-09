@@ -1,6 +1,7 @@
-site_name: My Docs
+site_name: Drift Archive
 theme:
   name: material
+  logo: material/forest
   palette:
     - scheme: default
       primary: indigo
